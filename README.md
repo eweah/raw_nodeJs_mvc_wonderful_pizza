@@ -20,7 +20,7 @@ All the backend codes and all the classes of the backend code inherit a single N
 ### installation
 1. clone the repository:
  ```javascript
- git clone https://github.com/devoutprogrammer/portfolio_node_raw_mvc_wonderful_pizza.git mvc
+ git clone https://github.com/devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza.git mvc
 ```
 2. cd in the directory:
 ```javascript
