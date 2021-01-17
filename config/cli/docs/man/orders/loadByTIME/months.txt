@@ -1,0 +1,30 @@
+
+    ### by months ##
+
+19. orders --load --months=number_of_months -j (works)
+19. orders --load --months=number_of_months --json (works)
+19. orders --load --months=number_of_months -j -d depth_level (works)
+19. orders --load --months=number_of_months -j --depth=depth_level (works)
+19. orders --load --months=number_of_months --json --depth=depth_level (works)
+19. orders --load --months=number_of_months --json -d depth_level (works)
+
+19. orders --load -M number_of_months -j (works)
+19. orders --load -M number_of_months --json (works)
+19. orders --load -M number_of_months -j -d depth_level (works)
+19. orders --load -M number_of_months -j --depth=depth_level (works)
+19. orders --load -M number_of_months --json --depth=depth_level (works)
+19. orders --load -M number_of_months --json -d depth_level (works)
+
+19. orders -l --months=number_of_months -j (works)
+19. orders -l --months=number_of_months --json (works)
+19. orders -l --months=number_of_months -j -d depth_level (works)
+19. orders -l --months=number_of_months -j --depth=depth_level (works)
+19. orders -l --months=number_of_months --json --depth=depth_level  (works)
+19. orders -l --months=number_of_months --json -d depth_level (works)
+
+19. orders -l -M number_of_months -j (works)
+19. orders -l -M number_of_months --json (works)
+19. orders -l -M number_of_months -j -d depth_level (works)
+19. orders -l -M number_of_months -j --depth=depth_level (works)
+19. orders -l -M number_of_months --json --depth=depth_level (works)
+19. orders -l -M number_of_months --json -d depth_level (works)

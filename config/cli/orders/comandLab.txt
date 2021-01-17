@@ -1,0 +1,13 @@
+orders --get --phone=6122071306
+users --get --phone=2038720739
+users --get --phone=3852045167
+users --get --phone=6122071306
+
+users -g -p 3852045167
+users --get -p 3852045167
+users -g --phone=3852045167
+users -d --phone=3852045167
+users --delete --phone=3852045167
+
+
+users --get --email=ericson.weah@gmail.com

@@ -1,0 +1,18 @@
+'use strict'
+
+export default () => {
+    return `
+    /* Main column */
+
+    @import './forms.css';
+    
+    /* Main column */
+    
+    .main {
+        -ms-flex: 80%;
+        /* IE10 */
+        flex: 80%;
+        background-color: white;
+        padding: 20px;
+    }`
+}

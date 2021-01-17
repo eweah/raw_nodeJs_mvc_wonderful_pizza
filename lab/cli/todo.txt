@@ -1,0 +1,8 @@
+==== API === 
+1. process
+2. global
+3. child processes 
+4. console
+5. command line options
+6. worker threads
+7. OS

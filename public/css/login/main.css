@@ -1,0 +1,12 @@
+/* Main column */
+
+
+/* @import './content.css'; */
+
+.main {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+}

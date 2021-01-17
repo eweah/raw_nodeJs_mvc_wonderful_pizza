@@ -1,0 +1,9 @@
+.main {
+    margin-bottom: 700px;
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+        margin-bottom: 700px;
+    }
+}

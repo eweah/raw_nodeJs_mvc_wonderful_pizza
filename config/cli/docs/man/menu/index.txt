@@ -1,0 +1,37 @@
+# Tabular form
+ === ALL ===
+1. menu --load 
+2. menu --load --json
+3. menu --load --json --depth=depth_level
+4. menu --load -j -d depth_level
+5. menu -l 
+6. menu -l --json
+7. menu -l --json --depth=depth_level
+8. menu -l -j -d depth_level
+
+=== type ===
+9.  menu -T type 
+10. menu -T type -s
+11. menu -T type -t 
+12. menu -T type --sizes
+13. menu -T type --toppings 
+14. menu -T type -s -t 
+15. menu -T type --sizes -t 
+16. menu -T type --sizes --toppings
+17. menu -T type --s --toppings
+
+18. menu -T type -j
+18. menu -T type --json
+18. menu -T type -j -d depth_level
+18. menu -T type -j --depth=depth_level
+18. menu -T type --json --depth=depth_level
+18. menu -T type --json -d 0 depth_level
+19. menu -T type -s
+20. menu -T type -t 
+21. menu -T type --sizes
+22. menu -T type --toppings
+23. menu -T type -s -t 
+24. menu -T type --sizes -t 
+25. menu -T type --sizes --toppings
+26. menu -T type --s --toppings
+

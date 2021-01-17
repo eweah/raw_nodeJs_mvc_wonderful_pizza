@@ -1,0 +1,463 @@
+// All possible commands
+1.      orders
+2.      orders -h
+3.      orders --help
+4.      orders -l
+5.      orders --load
+
+============ GET ORDERS BY CHOSEN TIME TABULAR FORM =========
+
+6.      orders -l -y number_of_years
+7.      orders -l --years=number_of_years
+8.      orders --load -y number_of_years
+10.     orders --load --years=number_of_years
+
+
+============ GET ORDER BY ID TABULAR FORM =========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## ==== orders --get -i order_id ==========
+18.     orders --get -i order_id
+
+18.     orders --get -i order_id -P
+18.     orders --get -i order_id --products
+
+18.     orders --get -i order_id -c 
+18.     orders --get -i order_id --card 
+
+18.     orders --get -i order_id -n
+18.     orders --get -i order_id --number
+
+18.     orders --get -i order_id -s
+18.     orders --get -i order_id --shipping
+
+18.     orders --get -i order_id -P -c
+18.     orders --get -i order_id -P --card
+18.     orders --get -i order_id --card --products
+
+18.     orders --get -i order_id -P -n
+18.     orders --get -i order_id -P --number
+18.     orders --get -i order_id --number --products
+
+18.     orders --get -i order_id -P -s
+18.     orders --get -i order_id -P --shipping
+18.     orders --get -i order_id --products --shipping
+
+18.     orders --get -i order_id -c -n
+18.     orders --get -i order_id -c --number
+18.     orders --get -i order_id --card -n
+18.     orders --get -i order_id --card --number
+
+18.     orders --get -i order_id -c -s
+18.     orders --get -i order_id -c --shipping
+18.     orders --get -i order_id --card -s
+18.     orders --get -i order_id --card --shipping
+
+18.     orders --get -i order_id -n -s
+18.     orders --get -i order_id --number -s
+18.     orders --get -i order_id -n --shipping
+18.     orders --get -i order_id --number --shipping
+
+18.     orders --get -i order_id -P -c -n
+18.     orders --get -i order_id -P --card -n
+18.     orders --get -i order_id -P -c --number
+18.     orders --get -i order_id -P --card --number
+18.     orders --get -i order_id --card -n --products
+18.     orders --get -i order_id -c --number --products
+18.     orders --get -i order_id -c -n --products
+18.     orders --get -i order_id --card --number --products
+
+18.     orders --get -i order_id -P -c -s
+8.      orders --get -i order_id -P --card -s
+8.      orders --get -i order_id -P --card --shipping
+8.      orders --get -i order_id -P -c --shipping
+8.      orders --get -i order_id -c --products -s
+8.      orders --get -i order_id --card --products -s
+8.      orders --get -i order_id -c --products --shipping
+8.      orders --get -i order_id --card --products --shipping
+
+18.     orders --get -i order_id -P -c -n -s
+18.     orders --get -i order_id -P --card -n -s
+18.     orders --get -i order_id -P -c --number -s
+18.     orders --get -i order_id -P -c -n --shipping
+18.     orders --get -i order_id -P --card --number -s
+18.     orders --get -i order_id -P -card -n --shipping
+18.     orders --get -i order_id -P --card --number --shipping
+18.     orders --get -i order_id -c -n --products -s
+18.     orders --get -i order_id -c --number --products -s
+18.     orders --get -i order_id -c --number --products --shipping
+18.     orders --get -i order_id --card -n --products -s
+18.     orders --get -i order_id --card -n --products --shipping
+18.     orders --get -i order_id --card --number --products -s
+18.     orders --get -i order_id --card --number --products --shipping
+
+18.     orders --get -i order_id -c -n -s
+18.     orders --get -i order_id -c --number -s
+18.     orders --get -i order_id -c -n --shipping
+18.     orders --get -i order_id -c --number --shipping
+18.     orders --get -i order_id --card -n -s
+18.     orders --get -i order_id --card --number -s
+18.     orders --get -i order_id --card -n --shipping
+18.     orders --get -i order_id --card --number --shipping
+
+
+## ==== orders -g --id=order_id ==========
+18.     orders -g --id=order_id
+
+18.     orders -g --id=order_id -P
+18.     orders -g --id=order_id --products
+
+18.     orders -g --id=order_id -c 
+18.     orders -g --id=order_id --card 
+
+18.     orders -g --id=order_id -n
+18.     orders -g --id=order_id --number
+
+18.     orders -g --id=order_id -s
+18.     orders -g --id=order_id --shipping
+
+18.     orders -g --id=order_id -P -c
+18.     orders -g --id=order_id -P --card
+18.     orders -g --id=order_id --card --products
+
+18.     orders -g --id=order_id -P -n
+18.     orders -g --id=order_id -P --number
+18.     orders -g --id=order_id --number --products
+
+18.     orders -g --id=order_id -P -s
+18.     orders -g --id=order_id -P --shipping
+18.     orders -g --id=order_id --products --shipping
+
+18.     orders -g --id=order_id -c -n
+18.     orders -g --id=order_id -c --number
+18.     orders -g --id=order_id --card -n
+18.     orders -g --id=order_id --card --number
+
+18.     orders -g --id=order_id -c -s
+18.     orders -g --id=order_id -c --shipping
+18.     orders -g --id=order_id --card -s
+18.     orders -g --id=order_id --card --shipping
+
+18.     orders -g --id=order_id -n -s
+18.     orders -g --id=order_id --number -s
+18.     orders -g --id=order_id -n --shipping
+18.     orders -g --id=order_id --number --shipping
+
+18.     orders -g --id=order_id -P -c -n
+18.     orders -g --id=order_id -P --card -n
+18.     orders -g --id=order_id -P -c --number
+18.     orders -g --id=order_id -P --card --number
+18.     orders -g --id=order_id --card -n --products
+18.     orders -g --id=order_id -c --number --products
+18.     orders -g --id=order_id -c -n --products
+18.     orders -g --id=order_id --card --number --products
+
+18.     orders -g --id=order_id -P -c -s
+8.      orders -g --id=order_id -P --card -s
+8.      orders -g --id=order_id -P --card --shipping
+8.      orders -g --id=order_id -P -c --shipping
+8.      orders -g --id=order_id -c --products -s
+8.      orders -g --id=order_id --card --products -s
+8.      orders -g --id=order_id -c --products --shipping
+8.      orders -g --id=order_id --card --products --shipping
+
+18.     orders -g --id=order_id -P -c -n -s
+18.     orders -g --id=order_id -P --card -n -s
+18.     orders -g --id=order_id -P -c --number -s
+18.     orders -g --id=order_id -P -c -n --shipping
+18.     orders -g --id=order_id -P --card --number -s
+18.     orders -g --id=order_id -P -card -n --shipping
+18.     orders -g --id=order_id -P --card --number --shipping
+18.     orders -g --id=order_id -c -n --products -s
+18.     orders -g --id=order_id -c --number --products -s
+18.     orders -g --id=order_id -c --number --products --shipping
+18.     orders -g --id=order_id --card -n --products -s
+18.     orders -g --id=order_id --card -n --products --shipping
+18.     orders -g --id=order_id --card --number --products -s
+18.     orders -g --id=order_id --card --number --products --shipping
+
+18.     orders -g --id=order_id -c -n -s
+18.     orders -g --id=order_id -c --number -s
+18.     orders -g --id=order_id -c -n --shipping
+18.     orders -g --id=order_id -c --number --shipping
+18.     orders -g --id=order_id --card -n -s
+18.     orders -g --id=order_id --card --number -s
+18.     orders -g --id=order_id --card -n --shipping
+18.     orders -g --id=order_id --card --number --shipping
+
+## ==== orders -g -i order_id ==========
+18.     orders -g -i order_id
+
+18.     orders -g -i order_id -P
+18.     orders -g -i order_id --products
+
+18.     orders -g -i order_id -c 
+18.     orders -g -i order_id --card 
+
+18.     orders -g -i order_id -n
+18.     orders -g -i order_id --number
+
+18.     orders -g -i order_id -s
+18.     orders -g -i order_id --shipping
+
+18.     orders -g -i order_id -P -c
+18.     orders -g -i order_id -P --card
+18.     orders -g -i order_id --card --products
+
+18.     orders -g -i order_id -P -n
+18.     orders -g -i order_id -P --number
+18.     orders -g -i order_id --number --products
+
+18.     orders -g -i order_id -P -s
+18.     orders -g -i order_id -P --shipping
+18.     orders -g -i order_id --products --shipping
+
+18.     orders -g -i order_id -c -n
+18.     orders -g -i order_id -c --number
+18.     orders -g -i order_id --card -n
+18.     orders -g -i order_id --card --number
+
+18.     orders -g -i order_id -c -s
+18.     orders -g -i order_id -c --shipping
+18.     orders -g -i order_id --card -s
+18.     orders -g -i order_id --card --shipping
+
+18.     orders -g -i order_id -n -s
+18.     orders -g -i order_id --number -s
+18.     orders -g -i order_id -n --shipping
+18.     orders -g -i order_id --number --shipping
+
+18.     orders -g -i order_id -P -c -n
+18.     orders -g -i order_id -P --card -n
+18.     orders -g -i order_id -P -c --number
+18.     orders -g -i order_id -P --card --number
+18.     orders -g -i order_id --card -n --products
+18.     orders -g -i order_id -c --number --products
+18.     orders -g -i order_id -c -n --products
+18.     orders -g -i order_id --card --number --products
+
+18.     orders -g -i order_id -P -c -s
+8.      orders -g -i order_id -P --card -s
+8.      orders -g -i order_id -P --card --shipping
+8.      orders -g -i order_id -P -c --shipping
+8.      orders -g -i order_id -c --products -s
+8.      orders -g -i order_id --card --products -s
+8.      orders -g -i order_id -c --products --shipping
+8.      orders -g -i order_id --card --products --shipping
+
+18.     orders -g -i order_id -P -c -n -s
+18.     orders -g -i order_id -P --card -n -s
+18.     orders -g -i order_id -P -c --number -s
+18.     orders -g -i order_id -P -c -n --shipping
+18.     orders -g -i order_id -P --card --number -s
+18.     orders -g -i order_id -P -card -n --shipping
+18.     orders -g -i order_id -P --card --number --shipping
+18.     orders -g -i order_id -c -n --products -s
+18.     orders -g -i order_id -c --number --products -s
+18.     orders -g -i order_id -c --number --products --shipping
+18.     orders -g -i order_id --card -n --products -s
+18.     orders -g -i order_id --card -n --products --shipping
+18.     orders -g -i order_id --card --number --products -s
+18.     orders -g -i order_id --card --number --products --shipping
+
+18.     orders -g -i order_id -c -n -s
+18.     orders -g -i order_id -c --number -s
+18.     orders -g -i order_id -c -n --shipping
+18.     orders -g -i order_id -c --number --shipping
+18.     orders -g -i order_id --card -n -s
+18.     orders -g -i order_id --card --number -s
+18.     orders -g -i order_id --card -n --shipping
+18.     orders -g -i order_id --card --number --shipping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18.     orders --get --id=order_id -P -c -n
+18.     orders --get --id=order_id -c -n -s
+18.     orders --get --id=order_id -P -c -n -s
+18.     orders --get --id=order_id -c -n -s
+
+18.     orders --get --id=order_id -P -n
+18.     orders --get --id=order_id -P -s
+
+
+
+18.     orders --get --id=order_id --products
+18.     orders --get --id=order_id --card 
+18.     orders --get --id=order_id --number
+18.     orders --get --id=order_id --shipping
+18.     orders --get --id=order_id --products -c
+18.     orders --get --id=order_id --card -n
+18.     orders --get --id=order_id --number -s
+18.     orders --get --id=order_id --products -c -n
+18.     orders --get --id=order_id --card -n -s
+18.     orders --get --id=order_id --products -c -n -s
+18.     orders --get --id=order_id --card -n -s
+
+
+18.     orders --get --id=order_id --products --card
+18.     orders --get --id=order_id --card --number
+18.     orders --get --id=order_id --number --shipping
+18.     orders --get --id=order_id --products --card -n
+18.     orders --get --id=order_id --card --number -s
+18.     orders --get --id=order_id --products --card -n -s
+18.     orders --get --id=order_id --card --number -s
+
+18.     orders --get --id=order_id --products --card --number
+18.     orders --get --id=order_id --card --number --shipping
+18.     orders --get --id=order_id --products --card --number -s
+18.     orders --get --id=order_id --card --number --shipping
+
+18.     orders --get --id=order_id --products --card --number
+18.     orders --get --id=order_id --card --number --shipping
+18.     orders --get --id=order_id --products --card --number --shipping
+18.     orders --get --id=order_id --card --number --shipping
+
+
+
+19.     orders --get -i order_id
+20.     orders -g -i order_id
+21.     orders -g --id=order_id
+
+22.     orders -l -m number_of_minutes
+23.     orders -l --minutes=number_of_minutes
+24.     orders --load --minutes=number_of_minutes
+25.     orders --load -m number_of_minutes
+
+26.     orders -l -h number_of_hours
+27      orders -l --hours=number_of_hours
+28.     orders --load --hours=number_of_hours
+30.     orders --load -h number_of_hours
+
+
+31.     orders -l -d number_of_days
+32.     orders -l --days=number_of_days
+33.     orders --load --days=number_of_days
+34.     orders --load -d number_of_days
+
+35.     orders -l -d number_of_months
+36      orders -l --months=number_of_months
+37.     orders --load --months=number_of_months
+38.     orders --load -d number_of_months
+
+18.     orders --get --email=email
+19.     orders --get -e email
+20.     orders -g -e email
+21.     orders -g --email=email
+
+18.     orders --get --phone=phone
+19.     orders --get -p phone
+20.     orders -g -p phone
+21.     orders -g --phone=phone
+
+11.     orders -l -j 
+12.     orders -l --json
+13.     orders -l --json --depth=depth_level
+14.     orders --load --json --depth=depth_level
+15.     orders --load --json -d depth_level
+16.     orders --load -j -d depth_level
+17.     orders -l -j -d depth_level
+

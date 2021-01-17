@@ -1,0 +1,209 @@
+### First review
+
+#==== Tabular form =====
+1. orders --load  (works)
+2. orders -l  (works)
+
+3. orders --load -y number_of_year (works)
+4. orders -l -y number_of_year (works)
+5. orders --load --years=number_of_year (works)
+6. orders -l --years=number_of_year (works)
+
+7. orders --load --days=number_of_days (works)
+8. orders --load -d number_of_days (works)
+9. orders -l -d number_of_days (works)
+10. orders -l --days=number_of_days (works)
+
+11. orders --load --minutes=number_of_minutes (works)
+12. orders --load -m number_of_minutes (works)
+13. orders -l -m number_of_minutes (works)
+14. orders -l --minutes=number_of_minutes (works)
+
+15. orders --load --hours=number_of_hours (works)
+16. orders -l --hours=number_of_hours (works)
+17. orders --load -h number_of_hours (works)
+18. orders -l -h number_of_hours (works)
+
+19. orders --load --months=number_of_months (works)
+20. orders -l --months=number_of_months (works)
+21. orders -l -M number_of_months (works)
+22. orders --load -M number_of_months (works)
+
+
+## === Json form ====
+
+23. orders --load -j (works)
+24. orders --load --json (works)
+25. orders --load -j -d depth_level (works)
+26. orders --load -j --depth=depth_level (works)
+27. orders --load --json --depth=depth_level (works)
+28. orders --load --json -d depth_level (works)
+
+23. orders -l -j (works)
+24. orders -l --json (works)
+25. orders -l -j -d depth_level (works)
+26. orders -l -j --depth=depth_level (works)
+27. orders -l --json --depth=depth_level (works)
+28. orders -l --json -d depth_level (works)
+
+    ## by year ###
+29. orders --load --years=number_of_year (works) -j (works)
+29. orders --load --years=number_of_year (works) --jon (works)
+29. orders --load --years=number_of_year (works) -j -d depth_level(works)
+29. orders --load --years=number_of_year (works) -j --depth=depth_level(works)
+29. orders --load --years=number_of_year (works) -j -d depth_level(works)
+29. orders --load --years=number_of_year (works) --json --depth=depth_level(works)
+
+29. orders --load -y number_of_year (works) -j (works)
+29. orders --load -y number_of_year (works) --jon (works)
+29. orders --load -y number_of_year (works) -j -d depth_level(works)
+29. orders --load -y number_of_year (works) -j --depth=depth_level(works)
+29. orders --load -y number_of_year (works) -j -d depth_level(works)
+29. orders --load -y number_of_year (works) --json --depth=depth_level(works)
+
+29. orders -l --years=number_of_year (works) -j (works)
+29. orders -l --years=number_of_year (works) --jon (works)
+29. orders -l --years=number_of_year (works) -j -d depth_level(works)
+29. orders -l --years=number_of_year (works) -j --depth=depth_level(works)
+29. orders -l --years=number_of_year (works) -j -d depth_level(works)
+29. orders -l --years=number_of_year (works) --json --depth=depth_level(works)
+
+29. orders -l -y number_of_year (works) -j (works)
+29. orders -l -y number_of_year (works) --json (works)
+29. orders -l -y number_of_year (works) -j -d depth_level(works)
+29. orders -l -y number_of_year (works) -j --depth=depth_level(works)
+29. orders -l -y number_of_year (works) -j -d depth_level(works)
+29. orders -l -y number_of_year (works) --json --depth=depth_level(works)
+
+    ### by months ##
+
+19. orders --load --months=number_of_months -j (works)
+19. orders --load --months=number_of_months --json (works)
+19. orders --load --months=number_of_months -j -d depth_level (works)
+19. orders --load --months=number_of_months -j --depth=depth_level (works)
+19. orders --load --months=number_of_months --json --depth=depth_level (works)
+19. orders --load --months=number_of_months --json -d depth_level (works)
+
+19. orders --load -M number_of_months -j (works)
+19. orders --load -M number_of_months --json (works)
+19. orders --load -M number_of_months -j -d depth_level (works)
+19. orders --load -M number_of_months -j --depth=depth_level (works)
+19. orders --load -M number_of_months --json --depth=depth_level (works)
+19. orders --load -M number_of_months --json -d depth_level (works)
+
+19. orders -l --months=number_of_months -j (works)
+19. orders -l --months=number_of_months --json (works)
+19. orders -l --months=number_of_months -j -d depth_level (works)
+19. orders -l --months=number_of_months -j --depth=depth_level (works)
+19. orders -l --months=number_of_months --json --depth=depth_level  (works)
+19. orders -l --months=number_of_months --json -d depth_level (works)
+
+19. orders -l -M number_of_months -j (works)
+19. orders -l -M number_of_months --json (works)
+19. orders -l -M number_of_months -j -d depth_level (works)
+19. orders -l -M number_of_months -j --depth=depth_level (works)
+19. orders -l -M number_of_months --json --depth=depth_level (works)
+19. orders -l -M number_of_months --json -d depth_level (works)
+
+
+## by days ##
+
+7. orders --load --days=number_of_days -j (works)
+7. orders --load --days=number_of_days --json (works)
+7. orders --load --days=number_of_days --json --depth=depth_level (works)
+7. orders --load --days=number_of_days --json -d depth_level (works)
+7. orders --load --days=number_of_days -j -d depth_level (works)
+7. orders --load --days=number_of_days -j --depth=depth_level (works)
+
+7. orders --load -d number_of_days -j (works)
+7. orders --load -d number_of_days --json (works)
+7. orders --load -d number_of_days --json --depth=depth_level (works)
+7. orders --load -d number_of_days --json -d depth_level (works)
+7. orders --load -d number_of_days -j -d depth_level (works)
+7. orders --load -d number_of_days -j --depth=depth_level (works)
+
+7. orders -l --days=number_of_days -j (works)
+7. orders -l --days=number_of_days --json (works)
+7. orders -l --days=number_of_days --json --depth=depth_level (works)
+7. orders -l --days=number_of_days --json -d depth_level (works)
+7. orders -l --days=number_of_days -j -d depth_level (works)
+7. orders -l --days=number_of_days -j --depth=depth_level (works)
+
+7. orders -l -d number_of_days -j (works)
+7. orders -l -d number_of_days --json (works)
+7. orders -l -d number_of_days --json --depth=depth_level (works)
+7. orders -l -d number_of_days --json -d depth_level (works)
+7. orders -l -d number_of_days -j -d depth_level (works)
+7. orders -l -d number_of_days -j --depth=depth_level (works)
+
+  ## by hours ##
+
+7. orders --load --hours=number_of_hours -j (works)
+7. orders --load --hours=number_of_hours --json (works)
+7. orders --load --hours=number_of_hours --json --depth=depth_level (works)
+7. orders --load --hours=number_of_hours --json -d depth_level (works)
+7. orders --load --hours=number_of_hours -j -d depth_level (works)
+7. orders --load --hours=number_of_hours -j --depth=depth_level (works)
+
+7. orders --load -h number_of_hours -j (works)
+7. orders --load -h number_of_hours --json (works)
+7. orders --load -h number_of_hours --json --depth=depth_level (works)
+7. orders --load -h number_of_hours --json -d depth_level (works)
+7. orders --load -h number_of_hours -j -d depth_level (works)
+7. orders --load -h number_of_hours -j --depth=depth_level (works)
+
+
+7. orders -l --hours=number_of_hours -j (works)
+7. orders -l --hours=number_of_hours --json (works)
+7. orders -l --hours=number_of_hours --json --depth=depth_level (works)
+7. orders -l --hours=number_of_hours --json -d depth_level (works)
+7. orders -l --hours=number_of_hours -j -d depth_level (works)
+7. orders -l --hours=number_of_hours -j --depth=depth_level (works)
+
+7. orders -l -h number_of_hours -j (works)
+7. orders -l -h number_of_hours --json (works)
+7. orders -l -h number_of_hours --json --depth=depth_level (works)
+7. orders -l -h number_of_hours --json -d depth_level (works)
+7. orders -l -h number_of_hours -j -d depth_level (works)
+7. orders -l -h number_of_hours -j --depth=depth_level (works)
+
+
+##  by minutes ## 
+
+7. orders --load --minutes=number_of_minutes -j (works)
+7. orders --load --minutes=number_of_minutes --json (works)
+7. orders --load --minutes=number_of_minutes --json --depth=depth_level (works)
+7. orders --load --minutes=number_of_minutes --json -d depth_level (works)
+7. orders --load --minutes=number_of_minutes -j -d depth_level (works)
+7. orders --load --minutes=number_of_minutes -j --depth=depth_level (works)
+
+7. orders --load -m number_of_minutes -j (works)
+7. orders --load -m number_of_minutes --json (works)
+7. orders --load -m number_of_minutes --json --depth=depth_level (works)
+7. orders --load -m number_of_minutes --json -d depth_level (works)
+7. orders --load -m number_of_minutes -j -d depth_level (works)
+7. orders --load -m number_of_minutes -j --depth=depth_level (works)
+
+
+7. orders -l --minutes=number_of_minutes -j (works)
+7. orders -l --minutes=number_of_minutes --json (works)
+7. orders -l --minutes=number_of_minutes --json --depth=depth_level (works)
+7. orders -l --minutes=number_of_minutes --json -d depth_level (works)
+7. orders -l --minutes=number_of_minutes -j -d depth_level (works)
+7. orders -l --minutes=number_of_minutes -j --depth=depth_level (works)
+
+7. orders -l -m number_of_minutes -j (works)
+7. orders -l -m number_of_minutes --json (works)
+7. orders -l -m number_of_minutes --json --depth=depth_level (works)
+7. orders -l -m number_of_minutes --json -d depth_level (works)
+7. orders -l -m number_of_minutes -j -d depth_level (works)
+7. orders -l -m number_of_minutes -j --depth=depth_level (works)
+
+
+
+
+
+
+
+
+

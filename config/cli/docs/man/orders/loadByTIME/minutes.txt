@@ -1,0 +1,28 @@
+7. orders --load --minutes=number_of_minutes -j (works)
+7. orders --load --minutes=number_of_minutes --json (works)
+7. orders --load --minutes=number_of_minutes --json --depth=depth_level (works)
+7. orders --load --minutes=number_of_minutes --json -d depth_level (works)
+7. orders --load --minutes=number_of_minutes -j -d depth_level (works)
+7. orders --load --minutes=number_of_minutes -j --depth=depth_level (works)
+
+7. orders --load -m number_of_minutes -j (works)
+7. orders --load -m number_of_minutes --json (works)
+7. orders --load -m number_of_minutes --json --depth=depth_level (works)
+7. orders --load -m number_of_minutes --json -d depth_level (works)
+7. orders --load -m number_of_minutes -j -d depth_level (works)
+7. orders --load -m number_of_minutes -j --depth=depth_level (works)
+
+
+7. orders -l --minutes=number_of_minutes -j (works)
+7. orders -l --minutes=number_of_minutes --json (works)
+7. orders -l --minutes=number_of_minutes --json --depth=depth_level (works)
+7. orders -l --minutes=number_of_minutes --json -d depth_level (works)
+7. orders -l --minutes=number_of_minutes -j -d depth_level (works)
+7. orders -l --minutes=number_of_minutes -j --depth=depth_level (works)
+
+7. orders -l -m number_of_minutes -j (works)
+7. orders -l -m number_of_minutes --json (works)
+7. orders -l -m number_of_minutes --json --depth=depth_level (works)
+7. orders -l -m number_of_minutes --json -d depth_level (works)
+7. orders -l -m number_of_minutes -j -d depth_level (works)
+7. orders -l -m number_of_minutes -j --depth=depth_level (works)

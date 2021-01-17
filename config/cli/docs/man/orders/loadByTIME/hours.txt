@@ -1,0 +1,30 @@
+  ## by hours ##
+
+7. orders --load --hours=number_of_hours -j (works)
+7. orders --load --hours=number_of_hours --json (works)
+7. orders --load --hours=number_of_hours --json --depth=depth_level (works)
+7. orders --load --hours=number_of_hours --json -d depth_level (works)
+7. orders --load --hours=number_of_hours -j -d depth_level (works)
+7. orders --load --hours=number_of_hours -j --depth=depth_level (works)
+
+7. orders --load -h number_of_hours -j (works)
+7. orders --load -h number_of_hours --json (works)
+7. orders --load -h number_of_hours --json --depth=depth_level (works)
+7. orders --load -h number_of_hours --json -d depth_level (works)
+7. orders --load -h number_of_hours -j -d depth_level (works)
+7. orders --load -h number_of_hours -j --depth=depth_level (works)
+
+
+7. orders -l --hours=number_of_hours -j (works)
+7. orders -l --hours=number_of_hours --json (works)
+7. orders -l --hours=number_of_hours --json --depth=depth_level (works)
+7. orders -l --hours=number_of_hours --json -d depth_level (works)
+7. orders -l --hours=number_of_hours -j -d depth_level (works)
+7. orders -l --hours=number_of_hours -j --depth=depth_level (works)
+
+7. orders -l -h number_of_hours -j (works)
+7. orders -l -h number_of_hours --json (works)
+7. orders -l -h number_of_hours --json --depth=depth_level (works)
+7. orders -l -h number_of_hours --json -d depth_level (works)
+7. orders -l -h number_of_hours -j -d depth_level (works)
+7. orders -l -h number_of_hours -j --depth=depth_level (works)

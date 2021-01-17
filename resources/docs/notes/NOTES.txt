@@ -1,0 +1,1 @@
+1. No browser testing done so. The app works best in Chrome, Edge, Opera. Works in firefox too, but the menu pages still need to be worked on. 

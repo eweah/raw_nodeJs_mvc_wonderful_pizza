@@ -1,0 +1,23 @@
+.prairie-description-container {
+    display: flex;
+}
+
+.prairie-description {
+    flex: 90%;
+}
+
+.prairie-add-button {
+    flex: 10%;
+}
+
+.menu-prairie-form {
+    display: flex;
+}
+
+.sizes {
+    flex: 90%;
+}
+
+.done-button {
+    flex: 30%;
+}

@@ -1,0 +1,29 @@
+## by days ##
+
+7. orders --load --days=number_of_days -j (works)
+7. orders --load --days=number_of_days --json (works)
+7. orders --load --days=number_of_days --json --depth=depth_level (works)
+7. orders --load --days=number_of_days --json -d depth_level (works)
+7. orders --load --days=number_of_days -j -d depth_level (works)
+7. orders --load --days=number_of_days -j --depth=depth_level (works)
+
+7. orders --load -d number_of_days -j (works)
+7. orders --load -d number_of_days --json (works)
+7. orders --load -d number_of_days --json --depth=depth_level (works)
+7. orders --load -d number_of_days --json -d depth_level (works)
+7. orders --load -d number_of_days -j -d depth_level (works)
+7. orders --load -d number_of_days -j --depth=depth_level (works)
+
+7. orders -l --days=number_of_days -j (works)
+7. orders -l --days=number_of_days --json (works)
+7. orders -l --days=number_of_days --json --depth=depth_level (works)
+7. orders -l --days=number_of_days --json -d depth_level (works)
+7. orders -l --days=number_of_days -j -d depth_level (works)
+7. orders -l --days=number_of_days -j --depth=depth_level (works)
+
+7. orders -l -d number_of_days -j (works)
+7. orders -l -d number_of_days --json (works)
+7. orders -l -d number_of_days --json --depth=depth_level (works)
+7. orders -l -d number_of_days --json -d depth_level (works)
+7. orders -l -d number_of_days -j -d depth_level (works)
+7. orders -l -d number_of_days -j --depth=depth_level (works)

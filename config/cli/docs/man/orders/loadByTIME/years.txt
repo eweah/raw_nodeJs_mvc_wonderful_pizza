@@ -1,0 +1,29 @@
+
+    ## by year ###
+29. orders --load --years=number_of_year (works) -j (works)
+29. orders --load --years=number_of_year (works) --jon (works)
+29. orders --load --years=number_of_year (works) -j -d depth_level(works)
+29. orders --load --years=number_of_year (works) -j --depth=depth_level(works)
+29. orders --load --years=number_of_year (works) -j -d depth_level(works)
+29. orders --load --years=number_of_year (works) --json --depth=depth_level(works)
+
+29. orders --load -y number_of_year (works) -j (works)
+29. orders --load -y number_of_year (works) --jon (works)
+29. orders --load -y number_of_year (works) -j -d depth_level(works)
+29. orders --load -y number_of_year (works) -j --depth=depth_level(works)
+29. orders --load -y number_of_year (works) -j -d depth_level(works)
+29. orders --load -y number_of_year (works) --json --depth=depth_level(works)
+
+29. orders -l --years=number_of_year (works) -j (works)
+29. orders -l --years=number_of_year (works) --jon (works)
+29. orders -l --years=number_of_year (works) -j -d depth_level(works)
+29. orders -l --years=number_of_year (works) -j --depth=depth_level(works)
+29. orders -l --years=number_of_year (works) -j -d depth_level(works)
+29. orders -l --years=number_of_year (works) --json --depth=depth_level(works)
+
+29. orders -l -y number_of_year (works) -j (works)
+29. orders -l -y number_of_year (works) --json (works)
+29. orders -l -y number_of_year (works) -j -d depth_level(works)
+29. orders -l -y number_of_year (works) -j --depth=depth_level(works)
+29. orders -l -y number_of_year (works) -j -d depth_level(works)
+29. orders -l -y number_of_year (works) --json --depth=depth_level(works)

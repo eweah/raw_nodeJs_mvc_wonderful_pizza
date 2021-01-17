@@ -1,0 +1,440 @@
+##  Get by phone ## 
+      ## Tabular form ###
+orders --get --phone=6122071306 
+1. orders --get --phone=phone (works)
+2. orders --get -p phone (works)
+3. orders -g --phone=phone (works)
+3. orders -g -p phone (works)
+
+  ###  Json time ###  (completed)
+  orders --get --phone=6122071306 --years=4
+1. orders --get --phone=phone --years=number_of_years (works)
+1. orders --get --phone=phone -y number_of_years (works)
+1. orders --get --phone=phone --months=number_of_months (works)
+1. orders --get --phone=phone -M number_of_months (works)
+1. orders --get --phone=phone --days=number_of_days (works)
+1. orders --get --phone=phone -d number_of_days (works)
+1. orders --get --phone=phone --hours=number_of_hours (works)
+1. orders --get --phone=phone -h number_of_hours (works)
+1. orders --get --phone=phone --minutes=number_of_minutes (works)
+1. orders --get --phone=phone -m number_of_minutes (works)
+
+1. orders --get -p phone --years=number_of_years (works)
+1. orders --get -p phone -y number_of_years (works)
+1. orders --get -p phone --months=number_of_months (works)
+1. orders --get -p phone -M number_of_months (works)
+1. orders --get -p phone --days=number_of_days (works)
+1. orders --get -p phone -d number_of_days (works)
+1. orders --get -p phone --hours=number_of_hours (works)
+1. orders --get -p phone -h number_of_hours (works)
+1. orders --get -p phone --minutes=number_of_minutes (works)
+1. orders --get -p phone -m number_of_minutes (works)
+
+1. orders -g --phone=phone --years=number_of_years (works)
+1. orders -g --phone=phone -y number_of_years (works)
+1. orders -g --phone=phone --months=number_of_months (works)
+1. orders -g --phone=phone -M number_of_months (works)
+1. orders -g --phone=phone --days=number_of_days (works)
+1. orders -g --phone=phone -d number_of_days (works)
+1. orders -g --phone=phone --hours=number_of_hours (works)
+1. orders -g --phone=phone -h number_of_hours (works)
+1. orders -g --phone=phone --minutes=number_of_minutes (works)
+1. orders -g --phone=phone -m number_of_minutes (works)
+
+1. orders -g -p phone --years=number_of_years (works)
+1. orders -g -p phone -y number_of_years (works)
+1. orders -g -p phone --months=number_of_months (works)
+1. orders -g -p phone -M number_of_months (works)
+1. orders -g -p phone --days=number_of_days (works)
+1. orders -g -p phone -d number_of_days (works)
+1. orders -g -p phone --hours=number_of_hours (works)
+1. orders -g -p phone -h number_of_hours (works)
+1. orders -g -p phone --minutes=number_of_minutes (works)
+1. orders -g -p phone -m number_of_minutes (works)
+
+
+
+// orders --get --phone=6122071306 -j -d 0
+## json form ## (completed)
+
+1. orders --get --phone=phone -j (works)
+1. orders --get --phone=phone --json (works)
+1. orders --get --phone=phone -j -d depth_level (works)
+1. orders --get --phone=phone -j --depth=depth_level (works)
+1. orders --get --phone=phone --json -d depth_level (works)
+1. orders --get --phone=phone --json --depth=depth_level (works)
+
+1. orders --get -p phone -j (works)
+1. orders --get -p phone --json (works)
+1. orders --get -p phone -j -d depth_level (works)
+1. orders --get -p phone -j --depth=depth_level (works)
+1. orders --get -p phone --json -d depth_level (works)
+1. orders --get -p phone --json --depth=depth_level (works)
+
+
+1. orders -g --phone=phone -j (works)
+1. orders -g --phone=phone --json (works)
+1. orders -g --phone=phone -j -d depth_level (works)
+1. orders -g --phone=phone -j --depth=depth_level (works)
+1. orders -g --phone=phone --json -d depth_level (works)
+1. orders -g --phone=phone --json --depth=depth_level (works)
+
+1. orders -g -p phone -j (works)
+1. orders -g -p phone --json (works)
+1. orders -g -p phone -j -d depth_level (works)
+1. orders -g -p phone -j --depth=depth_level (works)
+1. orders -g -p phone --json -d depth_level (works)
+1. orders -g -p phone --json --depth=depth_level (works)
+
+
+
+
+### by time json format (time before json)### (completed)
+    ## ==== option length = 3======
+1. orders --get --phone=phone --years=number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone --months=number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone --days=number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone --hours=number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone --minutes=number_of_years --json --depth=depth_level (works)
+
+1. orders --get --phone=phone -y number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone -M number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone -d number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone -h number_of_years --json --depth=depth_level (works)
+1. orders --get --phone=phone -m number_of_years --json --depth=depth_level (works)
+
+1. orders --get -p phone --years=number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone --months=number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone --days=number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone --hours=number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone --minutes=number_of_years --json --depth=depth_level (works)
+
+1. orders --get -p phone -y number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone -M number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone -d number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone -h number_of_years --json --depth=depth_level (works)
+1. orders --get -p phone -m number_of_years --json --depth=depth_level (works)
+
+
+1. orders -g --phone=phone --years=number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone --months=number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone --days=number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone --hours=number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone --minutes=number_of_years --json --depth=depth_level (works)
+
+1. orders -g --phone=phone -y number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone -M number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone -d number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone -h number_of_years --json --depth=depth_level (works)
+1. orders -g --phone=phone -m number_of_years --json --depth=depth_level (works)
+
+1. orders -g -p phone --years=number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone --months=number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone --days=number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone --hours=number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone --minutes=number_of_years --json --depth=depth_level (works)
+
+1. orders -g -p phone -y number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone -M number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone -d number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone -h number_of_years --json --depth=depth_level (works)
+1. orders -g -p phone -m number_of_years --json --depth=depth_level (works)
+
+
+
+### by time json format (json before time)### (completed)
+
+1. orders --get --phone=phone --json --depth=depth_level --years=number_of_years (works)
+1. orders --get --phone=phone --json --depth=depth_level --months=number_of_months (works)
+1. orders --get --phone=phone --json --depth=depth_level --days=number_of_days (works)
+1. orders --get --phone=phone --json --depth=depth_level --hours=number_of_hours (works)
+1. orders --get --phone=phone --json --depth=depth_level --minutes=number_of_minutes (works)
+
+
+1. orders --get --phone=phone --json --depth=depth_level -y number_of_years (works)
+1. orders --get --phone=phone --json --depth=depth_level -M number_of_months (works)
+1. orders --get --phone=phone --json --depth=depth_level -d number_of_days (works)
+1. orders --get --phone=phone --json --depth=depth_level -h number_of_hours (works)
+1. orders --get --phone=phone --json --depth=depth_level -m number_of_minutes (works)
+
+
+1. orders --get -p phone --json --depth=depth_level --years=number_of_years (works)
+1. orders --get -p phone --json --depth=depth_level --months=number_of_months (works)
+1. orders --get -p phone --json --depth=depth_level --days=number_of_days (works)
+1. orders --get -p phone --json --depth=depth_level --hours=number_of_hours (works)
+1. orders --get -p phone --json --depth=depth_level --minutes=number_of_minutes (works)
+
+
+1. orders --get -p phone --json --depth=depth_level -y number_of_years (works)
+1. orders --get -p phone --json --depth=depth_level -M number_of_months (works)
+1. orders --get -p phone --json --depth=depth_level -d number_of_days (works)
+1. orders --get -p phone --json --depth=depth_level -h number_of_hours (works)
+1. orders --get -p phone --json --depth=depth_level -m number_of_minutes (works)
+
+1. orders -g --phone=phone --json --depth=depth_level --years=number_of_years (works)
+1. orders -g --phone=phone --json --depth=depth_level --months=number_of_months (works)
+1. orders -g --phone=phone --json --depth=depth_level --days=number_of_days (works)
+1. orders -g --phone=phone --json --depth=depth_level --hours=number_of_hours (works)
+1. orders -g --phone=phone --json --depth=depth_level --minutes=number_of_minutes (works)
+
+
+1. orders -g --phone=phone --json --depth=depth_level -y number_of_years (works)
+1. orders -g --phone=phone --json --depth=depth_level -M number_of_months (works)
+1. orders -g --phone=phone --json --depth=depth_level -d number_of_days (works)
+1. orders -g --phone=phone --json --depth=depth_level -h number_of_hours (works)
+1. orders -g --phone=phone --json --depth=depth_level -m number_of_minutes (works)
+
+1. orders -g -p phone --json --depth=depth_level --years=number_of_years (works)
+1. orders -g -p phone --json --depth=depth_level --months=number_of_months (works)
+1. orders -g -p phone --json --depth=depth_level --days=number_of_days (works)
+1. orders -g -p phone --json --depth=depth_level --hours=number_of_hours (works)
+1. orders -g -p phone --json --depth=depth_level --minutes=number_of_minutes (works)
+
+1. orders -g -p phone --json --depth=depth_level -y number_of_years (works)
+1. orders -g -p phone --json --depth=depth_level -M number_of_months (works)
+1. orders -g -p phone --json --depth=depth_level -d number_of_days (works)
+1. orders -g -p phone --json --depth=depth_level -h number_of_hours (works)
+1. orders -g -p phone --json --depth=depth_level -m number_of_minutes (works)
+
+  ## ==== option length = 4 ======
+
+
+
+   ### time before json ### (completed)
+
+1. orders --get --phone=phone --years=number_of_years -j -d depth_level (works)
+1. orders --get --phone=phone --months=number_of_years -j -d depth_level (works)
+1. orders --get --phone=phone --days=number_of_years -j -d depth_level (works)
+1. orders --get --phone=phone --hours=number_of_years -j -d depth_level (works)
+1. orders --get --phone=phone --minutes=number_of_years -j -d depth_level (works)
+
+1. orders --get --phone=phone --years=number_of_years --json -d depth_level (works)
+1. orders --get --phone=phone --months=number_of_years --json -d depth_level (works)
+1. orders --get --phone=phone --days=number_of_years --json -d depth_level (works)
+1. orders --get --phone=phone --hours=number_of_years --json -d depth_level (works)
+1. orders --get --phone=phone --minutes=number_of_years --json -d depth_level (works)
+
+
+1. orders --get -p phone --years=number_of_years -j -d depth_level (works)
+1. orders --get -p phone --months=number_of_years -j -d depth_level (works)
+1. orders --get -p phone --days=number_of_years -j -d depth_level (works)
+1. orders --get -p phone --hours=number_of_years -j -d depth_level (works)
+1. orders --get -p phone --minutes=number_of_years -j -d depth_level (works)
+
+1. orders --get -p phone --years=number_of_years --json -d depth_level (works)
+1. orders --get -p phone --months=number_of_years --json -d depth_level (works)
+1. orders --get -p phone --days=number_of_years --json -d depth_level (works)
+1. orders --get -p phone --hours=number_of_years --json -d depth_level (works)
+1. orders --get -p phone --minutes=number_of_years --json -d depth_level (works)
+
+
+
+
+
+1. orders -g --phone=phone --years=number_of_years -j -d depth_level (works)
+1. orders -g --phone=phone --months=number_of_years -j -d depth_level (works)
+1. orders -g --phone=phone --days=number_of_years -j -d depth_level (works)
+1. orders -g --phone=phone --hours=number_of_years -j -d depth_level (works)
+1. orders -g --phone=phone --minutes=number_of_years -j -d depth_level (works)
+
+1. orders -g --phone=phone --years=number_of_years --json -d depth_level (works)
+1. orders -g --phone=phone --months=number_of_years --json -d depth_level (works)
+1. orders -g --phone=phone --days=number_of_years --json -d depth_level (works)
+1. orders -g --phone=phone --hours=number_of_years --json -d depth_level (works)
+1. orders -g --phone=phone --minutes=number_of_years --json -d depth_level (works)
+
+
+1. orders -g -p phone --years=number_of_years -j -d depth_level (works)
+1. orders -g -p phone --months=number_of_years -j -d depth_level (works)
+1. orders -g -p phone --days=number_of_years -j -d depth_level (works)
+1. orders -g -p phone --hours=number_of_years -j -d depth_level (works)
+1. orders -g -p phone --minutes=number_of_years -j -d depth_level (works)
+
+1. orders -g -p phone --years=number_of_years --json -d depth_level (works)
+1. orders -g -p phone --months=number_of_years --json -d depth_level (works)
+1. orders -g -p phone --days=number_of_years --json -d depth_level (works)
+1. orders -g -p phone --hours=number_of_years --json -d depth_level (works)
+1. orders -g -p phone --minutes=number_of_years --json -d depth_level (works)
+
+
+ ### json before time ### (completed)
+
+
+1. orders --get --phone=phone  -j -d depth_level --years=number_of_years (works)
+1. orders --get --phone=phone  -j -d depth_level --months=number_of_months (works)
+1. orders --get --phone=phone  -j -d depth_level --days=number_of_days (works)
+1. orders --get --phone=phone  -j -d depth_level --hours=number_of_hours (works)
+1. orders --get --phone=phone  -j -d depth_level --minutes=number_of_minutes (works)
+
+1. orders --get --phone=phone  --json -d depth_level --years=number_of_years (works)
+1. orders --get --phone=phone  --json -d depth_level --months=number_of_months (works)
+1. orders --get --phone=phone  --json -d depth_level --days=number_of_days (works)
+1. orders --get --phone=phone  --json -d depth_level --hours=number_of_hours (works)
+1. orders --get --phone=phone  --json -d depth_level --minutes=number_of_minutes (works)
+
+
+1. orders --get --p phone  -j -d depth_level --years=number_of_years (works)
+1. orders --get --p phone  -j -d depth_level --months=number_of_months (works)
+1. orders --get --p phone  -j -d depth_level --days=number_of_days (works)
+1. orders --get --p phone  -j -d depth_level --hours=number_of_hours (works)
+1. orders --get --p phone  -j -d depth_level --minutes=number_of_minutes (works)
+
+1. orders --get --p phone  --json -d depth_level --years=number_of_years (works)
+1. orders --get --p phone  --json -d depth_level --months=number_of_months (works)
+1. orders --get --p phone  --json -d depth_level --days=number_of_days (works)
+1. orders --get --p phone  --json -d depth_level --hours=number_of_hours (works)
+1. orders --get --p phone  --json -d depth_level --minutes=number_of_minutes (works)
+
+
+
+
+1. orders -g --phone=phone  -j -d depth_level --years=number_of_years (works)
+1. orders -g --phone=phone  -j -d depth_level --months=number_of_months (works)
+1. orders -g --phone=phone  -j -d depth_level --days=number_of_days (works)
+1. orders -g --phone=phone  -j -d depth_level --hours=number_of_hours (works)
+1. orders -g --phone=phone  -j -d depth_level --minutes=number_of_minutes (works)
+
+1. orders -g --phone=phone  --json -d depth_level --years=number_of_years (works)
+1. orders -g --phone=phone  --json -d depth_level --months=number_of_months (works)
+1. orders -g --phone=phone  --json -d depth_level --days=number_of_days (works)
+1. orders -g --phone=phone  --json -d depth_level --hours=number_of_hours (works)
+1. orders -g --phone=phone  --json -d depth_level --minutes=number_of_minutes (works)
+
+
+1. orders -g --p phone  -j -d depth_level --years=number_of_years (works)
+1. orders -g --p phone  -j -d depth_level --months=number_of_months (works)
+1. orders -g --p phone  -j -d depth_level --days=number_of_days (works)
+1. orders -g --p phone  -j -d depth_level --hours=number_of_hours (works)
+1. orders -g --p phone  -j -d depth_level --minutes=number_of_minutes (works)
+
+1. orders -g --p phone  --json -d depth_level --years=number_of_years (works)
+1. orders -g --p phone  --json -d depth_level --months=number_of_months (works)
+1. orders -g --p phone  --json -d depth_level --days=number_of_days (works)
+1. orders -g --p phone  --json -d depth_level --hours=number_of_hours (works)
+1. orders -g --p phone  --json -d depth_level --minutes=number_of_minutes (works)
+
+
+## ==== option length = 5 ======
+
+
+
+   ### json before time ### (completed)
+1. orders --get --phone=phone  -j -d depth_level -y number_of_years (works)
+1. orders --get --phone=phone  -j -d depth_level -M number_of_months (works)
+1. orders --get --phone=phone  -j -d depth_level -d number_of_days (works)
+1. orders --get --phone=phone  -j -d depth_level -h number_of_hours (works)
+1. orders --get --phone=phone  -j -d depth_level -m number_of_minutes (works)
+
+1. orders --get --phone=phone  --json -d depth_level -y number_of_years (works)
+1. orders --get --phone=phone  --json -d depth_level -M number_of_months (works)
+1. orders --get --phone=phone  --json -d depth_level -d number_of_days (works)
+1. orders --get --phone=phone  --json -d depth_level -h number_of_hours (works)
+1. orders --get --phone=phone  --json -d depth_level -m number_of_minutes (works)
+
+1. orders --get -p phone  -j -d depth_level -y number_of_years (works)
+1. orders --get -p phone  -j -d depth_level -M number_of_months (works)
+1. orders --get -p phone  -j -d depth_level -d number_of_days (works)
+1. orders --get -p phone  -j -d depth_level -h number_of_hours (works)
+1. orders --get -p phone  -j -d depth_level -m number_of_minutes (works)
+
+1. orders --get -p phone  --json -d depth_level -y number_of_years (works)
+1. orders --get -p phone  --json -d depth_level -M number_of_months (works)
+1. orders --get -p phone  --json -d depth_level -d number_of_days (works)
+1. orders --get -p phone  --json -d depth_level -h number_of_hours (works)
+1. orders --get -p phone  --json -d depth_level -m number_of_minutes (works)
+
+
+1. orders -g --phone=phone  -j -d depth_level -y number_of_years (works)
+1. orders -g --phone=phone  -j -d depth_level -M number_of_months (works)
+1. orders -g --phone=phone  -j -d depth_level -d number_of_days (works)
+1. orders -g --phone=phone  -j -d depth_level -h number_of_hours (works)
+1. orders -g --phone=phone  -j -d depth_level -m number_of_minutes (works)
+
+1. orders -g --phone=phone  --json -d depth_level -y number_of_years (works)
+1. orders -g --phone=phone  --json -d depth_level -M number_of_months (works)
+1. orders -g --phone=phone  --json -d depth_level -d number_of_days (works)
+1. orders -g --phone=phone  --json -d depth_level -h number_of_hours (works)
+1. orders -g --phone=phone  --json -d depth_level -m number_of_minutes (works)
+
+1. orders -g -p phone  -j -d depth_level -y number_of_years (works)
+1. orders -g -p phone  -j -d depth_level -M number_of_months (works)
+1. orders -g -p phone  -j -d depth_level -d number_of_days (works)
+1. orders -g -p phone  -j -d depth_level -h number_of_hours (works)
+1. orders -g -p phone  -j -d depth_level -m number_of_minutes (works)
+
+1. orders -g -p phone  --json -d depth_level -y number_of_years (works)
+1. orders -g -p phone  --json -d depth_level -M number_of_months (works)
+1. orders -g -p phone  --json -d depth_level -d number_of_days (works)
+1. orders -g -p phone  --json -d depth_level -h number_of_hours (works)
+1. orders -g -p phone  --json -d depth_level -m number_of_minutes (works)
+
+
+
+   ### time before json ### (completed)
+
+
+1. orders --get --phone=phone -y number_of_years -j -d depth_level (works)
+1. orders --get --phone=phone -M number_of_months -j -d depth_level (works)
+1. orders --get --phone=phone -d number_of_days -j -d depth_level (works)
+1. orders --get --phone=phone -h number_of_hours -j -d depth_level (works)
+1. orders --get --phone=phone -m number_of_minutes -j -d depth_level (works)
+
+1. orders --get --phone=phone -y number_of_years --json -d depth_level (works)
+1. orders --get --phone=phone -M number_of_months --json -d depth_level (works)
+1. orders --get --phone=phone -d number_of_days --json -d depth_level (works)
+1. orders --get --phone=phone -h number_of_hours --json -d depth_level (works)
+1. orders --get --phone=phone -m number_of_minutes --json -d depth_level (works)
+
+1. orders --get -p phone -y number_of_years -j -d depth_level (works)
+1. orders --get -p phone -M number_of_months -j -d depth_level (works)
+1. orders --get -p phone -d number_of_days -j -d depth_level (works)
+1. orders --get -p phone -h number_of_hours -j -d depth_level (works)
+1. orders --get -p phone -m number_of_minutes -j -d depth_level (works)
+
+1. orders --get -p phone -y number_of_years --json -d depth_level (works)
+1. orders --get -p phone -M number_of_months --json -d depth_level (works)
+1. orders --get -p phone -d number_of_days --json -d depth_level (works)
+1. orders --get -p phone -h number_of_hours --json -d depth_level (works)
+1. orders --get -p phone -m number_of_minutes --json -d depth_level (works)
+
+
+1. orders -g --phone=phone -y number_of_years -j -d depth_level (works)
+1. orders -g --phone=phone -M number_of_months -j -d depth_level (works)
+1. orders -g --phone=phone -d number_of_days -j -d depth_level (works)
+1. orders -g --phone=phone -h number_of_hours -j -d depth_level (works)
+1. orders -g --phone=phone -m number_of_minutes -j -d depth_level (works)
+
+1. orders -g --phone=phone -y number_of_years --json -d depth_level (works)
+1. orders -g --phone=phone -M number_of_months --json -d depth_level (works)
+1. orders -g --phone=phone -d number_of_days --json -d depth_level (works)
+1. orders -g --phone=phone -h number_of_hours --json -d depth_level (works)
+1. orders -g --phone=phone -m number_of_minutes --json -d depth_level (works)
+
+1. orders -g -p phone -y number_of_years -j -d depth_level (works)
+1. orders -g -p phone -M number_of_months -j -d depth_level (works)
+1. orders -g -p phone -d number_of_days -j -d depth_level (works)
+1. orders -g -p phone -h number_of_hours -j -d depth_level (works)
+1. orders -g -p phone -m number_of_minutes -j -d depth_level (works)
+
+1. orders -g -p phone -y number_of_years --json -d depth_level (works)
+1. orders -g -p phone -M number_of_months --json -d depth_level (works)
+1. orders -g -p phone -d number_of_days --json -d depth_level (works)
+1. orders -g -p phone -h number_of_hours --json -d depth_level (works)
+1. orders -g -p phone -m number_of_minutes --json -d depth_level (works)
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

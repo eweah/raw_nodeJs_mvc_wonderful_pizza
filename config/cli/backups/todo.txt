@@ -1,0 +1,9 @@
+1. ordercommands
+  1. get all orders associated with a user 
+  2. get all orders associated with a guest 
+  3. Order details
+      1. get the whole order 
+      2. get order products
+      3. get order card 
+      4. get order shipping details
+      5. get order : price, number, placement date

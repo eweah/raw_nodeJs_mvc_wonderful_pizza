@@ -1,0 +1,605 @@
+============ GET ORDER BY ID TABULAR FORM =========
+
+## ==== orders --get --id=order_id ==========
+
+18.     orders --get --id=order_id
+
+18.     orders --get --id=order_id -P
+18.     orders --get --id=order_id --products
+
+18.     orders --get --id=order_id -c 
+18.     orders --get --id=order_id --card 
+
+18.     orders --get --id=order_id -n
+18.     orders --get --id=order_id --number
+
+18.     orders --get --id=order_id -s
+18.     orders --get --id=order_id --shipping
+
+18.     orders --get --id=order_id -P -c
+18.     orders --get --id=order_id -P --card
+18.     orders --get --id=order_id --card --products
+
+18.     orders --get --id=order_id -P -n
+18.     orders --get --id=order_id -P --number
+18.     orders --get --id=order_id --number --products
+
+18.     orders --get --id=order_id -P -s
+18.     orders --get --id=order_id -P --shipping
+18.     orders --get --id=order_id --products --shipping
+
+18.     orders --get --id=order_id -c -n
+18.     orders --get --id=order_id -c --number
+18.     orders --get --id=order_id --card -n
+18.     orders --get --id=order_id --card --number
+
+18.     orders --get --id=order_id -c -s
+18.     orders --get --id=order_id -c --shipping
+18.     orders --get --id=order_id --card -s
+18.     orders --get --id=order_id --card --shipping
+
+18.     orders --get --id=order_id -n -s
+18.     orders --get --id=order_id --number -s
+18.     orders --get --id=order_id -n --shipping
+18.     orders --get --id=order_id --number --shipping
+
+18.     orders --get --id=order_id -P -c -n
+18.     orders --get --id=order_id -P --card -n
+18.     orders --get --id=order_id -P -c --number
+18.     orders --get --id=order_id -P --card --number
+18.     orders --get --id=order_id --card -n --products
+18.     orders --get --id=order_id -c --number --products
+18.     orders --get --id=order_id -c -n --products
+18.     orders --get --id=order_id --card --number --products
+
+18.     orders --get --id=order_id -P -c -s
+8.      orders --get --id=order_id -P --card -s
+8.      orders --get --id=order_id -P --card --shipping
+8.      orders --get --id=order_id -P -c --shipping
+8.      orders --get --id=order_id -c --products -s
+8.      orders --get --id=order_id --card --products -s
+8.      orders --get --id=order_id -c --products --shipping
+8.      orders --get --id=order_id --card --products --shipping
+
+18.     orders --get --id=order_id -P -c -n -s
+18.     orders --get --id=order_id -P --card -n -s
+18.     orders --get --id=order_id -P -c --number -s
+18.     orders --get --id=order_id -P -c -n --shipping
+18.     orders --get --id=order_id -P --card --number -s
+18.     orders --get --id=order_id -P -card -n --shipping
+18.     orders --get --id=order_id -P --card --number --shipping
+18.     orders --get --id=order_id -c -n --products -s
+18.     orders --get --id=order_id -c --number --products -s
+18.     orders --get --id=order_id -c --number --products --shipping
+18.     orders --get --id=order_id --card -n --products -s
+18.     orders --get --id=order_id --card -n --products --shipping
+18.     orders --get --id=order_id --card --number --products -s
+18.     orders --get --id=order_id --card --number --products --shipping
+
+18.     orders --get --id=order_id -c -n -s
+18.     orders --get --id=order_id -c --number -s
+18.     orders --get --id=order_id -c -n --shipping
+18.     orders --get --id=order_id -c --number --shipping
+18.     orders --get --id=order_id --card -n -s
+18.     orders --get --id=order_id --card --number -s
+18.     orders --get --id=order_id --card -n --shipping
+18.     orders --get --id=order_id --card --number --shipping
+
+
+======= GET ORDER BY ID JSON FORM  =========
+
+## ==== orders --get --id=order_id -j ==========
+
+18.     orders --get --id=order_id -j
+
+18.     orders --get --id=order_id -P -j
+18.     orders --get --id=order_id --products -j
+
+18.     orders --get --id=order_id -c -j
+18.     orders --get --id=order_id --card -j
+
+18.     orders --get --id=order_id -n -j
+18.     orders --get --id=order_id --number -j
+
+18.     orders --get --id=order_id -s -j
+18.     orders --get --id=order_id --shipping -j
+
+18.     orders --get --id=order_id -P -c -j
+18.     orders --get --id=order_id -P --card -j
+18.     orders --get --id=order_id --card --products -j
+
+18.     orders --get --id=order_id -P -n -j
+18.     orders --get --id=order_id -P --number -j
+18.     orders --get --id=order_id --number --products -j
+
+18.     orders --get --id=order_id -P -s -j
+18.     orders --get --id=order_id -P --shipping -j
+18.     orders --get --id=order_id --products --shipping -j
+
+18.     orders --get --id=order_id -c -n -j
+18.     orders --get --id=order_id -c --number -j
+18.     orders --get --id=order_id --card -n -j
+18.     orders --get --id=order_id --card --number -j
+
+18.     orders --get --id=order_id -c -s -j
+18.     orders --get --id=order_id -c --shipping -j
+18.     orders --get --id=order_id --card -s -j
+18.     orders --get --id=order_id --card --shipping -j
+
+18.     orders --get --id=order_id -n -s -j
+18.     orders --get --id=order_id --number -s -j
+18.     orders --get --id=order_id -n --shipping -j
+18.     orders --get --id=order_id --number --shipping -j
+
+18.     orders --get --id=order_id -P -c -n -j
+18.     orders --get --id=order_id -P --card -n -j
+18.     orders --get --id=order_id -P -c --number -j
+18.     orders --get --id=order_id -P --card --number -j
+18.     orders --get --id=order_id --card -n --products -j
+18.     orders --get --id=order_id -c --number --products -j
+18.     orders --get --id=order_id -c -n --products -j
+18.     orders --get --id=order_id --card --number --products -j
+
+18.     orders --get --id=order_id -P -c -s -j
+8.      orders --get --id=order_id -P --card -s -j
+8.      orders --get --id=order_id -P --card --shipping -j
+8.      orders --get --id=order_id -P -c --shipping -j
+8.      orders --get --id=order_id -c --products -s -j
+8.      orders --get --id=order_id --card --products -s -j
+8.      orders --get --id=order_id -c --products --shipping -j
+8.      orders --get --id=order_id --card --products --shipping -j
+
+18.     orders --get --id=order_id -P -c -n -s -j
+18.     orders --get --id=order_id -P --card -n -s -j
+18.     orders --get --id=order_id -P -c --number -s -j
+18.     orders --get --id=order_id -P -c -n --shipping -j
+18.     orders --get --id=order_id -P --card --number -s -j
+18.     orders --get --id=order_id -P -card -n --shipping -j
+18.     orders --get --id=order_id -P --card --number --shipping -j
+18.     orders --get --id=order_id -c -n --products -s -j
+18.     orders --get --id=order_id -c --number --products -s -j
+18.     orders --get --id=order_id -c --number --products --shipping -j
+18.     orders --get --id=order_id --card -n --products -s -j
+18.     orders --get --id=order_id --card -n --products --shipping -j
+18.     orders --get --id=order_id --card --number --products -s -j
+18.     orders --get --id=order_id --card --number --products --shipping -j
+
+18.     orders --get --id=order_id -c -n -s -j
+18.     orders --get --id=order_id -c --number -s -j
+18.     orders --get --id=order_id -c -n --shipping -j
+18.     orders --get --id=order_id -c --number --shipping -j
+18.     orders --get --id=order_id --card -n -s -j
+18.     orders --get --id=order_id --card --number -s -j
+18.     orders --get --id=order_id --card -n --shipping -j
+18.     orders --get --id=order_id --card --number --shipping -j
+
+
+## ==== orders --get --id=order_id -j -d depth_level==========
+
+18.     orders --get --id=order_id -j -d depth_level
+
+18.     orders --get --id=order_id -P -j -d depth_level
+18.     orders --get --id=order_id --products -j -d depth_level
+
+18.     orders --get --id=order_id -c -j -d depth_level
+18.     orders --get --id=order_id --card -j -d depth_level
+
+18.     orders --get --id=order_id -n -j -d depth_level
+18.     orders --get --id=order_id --number -j -d depth_level
+
+18.     orders --get --id=order_id -s -j -d depth_level
+18.     orders --get --id=order_id --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -P -c -j -d depth_level
+18.     orders --get --id=order_id -P --card -j -d depth_level
+18.     orders --get --id=order_id --card --products -j -d depth_level
+
+18.     orders --get --id=order_id -P -n -j -d depth_level
+18.     orders --get --id=order_id -P --number -j -d depth_level
+18.     orders --get --id=order_id --number --products -j -d depth_level
+
+18.     orders --get --id=order_id -P -s -j -d depth_level
+18.     orders --get --id=order_id -P --shipping -j -d depth_level
+18.     orders --get --id=order_id --products --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -c -n -j -d depth_level
+18.     orders --get --id=order_id -c --number -j -d depth_level
+18.     orders --get --id=order_id --card -n -j -d depth_level
+18.     orders --get --id=order_id --card --number -j -d depth_level
+
+18.     orders --get --id=order_id -c -s -j -d depth_level
+18.     orders --get --id=order_id -c --shipping -j -d depth_level
+18.     orders --get --id=order_id --card -s -j -d depth_level
+18.     orders --get --id=order_id --card --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -n -s -j -d depth_level
+18.     orders --get --id=order_id --number -s -j -d depth_level
+18.     orders --get --id=order_id -n --shipping -j -d depth_level
+18.     orders --get --id=order_id --number --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -P -c -n -j -d depth_level
+18.     orders --get --id=order_id -P --card -n -j -d depth_level
+18.     orders --get --id=order_id -P -c --number -j -d depth_level
+18.     orders --get --id=order_id -P --card --number -j -d depth_level
+18.     orders --get --id=order_id --card -n --products -j -d depth_level
+18.     orders --get --id=order_id -c --number --products -j -d depth_level
+18.     orders --get --id=order_id -c -n --products -j -d depth_level
+18.     orders --get --id=order_id --card --number --products -j -d depth_level
+
+18.     orders --get --id=order_id -P -c -s -j -d depth_level
+8.      orders --get --id=order_id -P --card -s -j -d depth_level
+8.      orders --get --id=order_id -P --card --shipping -j -d depth_level
+8.      orders --get --id=order_id -P -c --shipping -j -d depth_level
+8.      orders --get --id=order_id -c --products -s -j -d depth_level
+8.      orders --get --id=order_id --card --products -s -j -d depth_level
+8.      orders --get --id=order_id -c --products --shipping -j -d depth_level
+8.      orders --get --id=order_id --card --products --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -P -c -n -s -j -d depth_level
+18.     orders --get --id=order_id -P --card -n -s -j -d depth_level
+18.     orders --get --id=order_id -P -c --number -s -j -d depth_level
+18.     orders --get --id=order_id -P -c -n --shipping -j -d depth_level
+18.     orders --get --id=order_id -P --card --number -s -j -d depth_level
+18.     orders --get --id=order_id -P -card -n --shipping -j -d depth_level
+18.     orders --get --id=order_id -P --card --number --shipping -j -d depth_level
+18.     orders --get --id=order_id -c -n --products -s -j -d depth_level
+18.     orders --get --id=order_id -c --number --products -s -j -d depth_level
+18.     orders --get --id=order_id -c --number --products --shipping -j -d depth_level
+18.     orders --get --id=order_id --card -n --products -s -j -d depth_level
+18.     orders --get --id=order_id --card -n --products --shipping -j -d depth_level
+18.     orders --get --id=order_id --card --number --products -s -j -d depth_level
+18.     orders --get --id=order_id --card --number --products --shipping -j -d depth_level
+
+18.     orders --get --id=order_id -c -n -s -j -d depth_level
+18.     orders --get --id=order_id -c --number -s -j -d depth_level
+18.     orders --get --id=order_id -c -n --shipping -j -d depth_level
+18.     orders --get --id=order_id -c --number --shipping -j -d depth_level
+18.     orders --get --id=order_id --card -n -s -j -d depth_level
+18.     orders --get --id=order_id --card --number -s -j -d depth_level
+18.     orders --get --id=order_id --card -n --shipping -j -d depth_level
+18.     orders --get --id=order_id --card --number --shipping -j -d depth_level
+
+
+## ==== orders --get --id=order_id -j --depth=depth_level ==========
+
+18.     orders --get --id=order_id -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -j --depth=depth_level
+18.     orders --get --id=order_id --products -j --depth=depth_level
+
+18.     orders --get --id=order_id -c -j --depth=depth_level
+18.     orders --get --id=order_id --card -j --depth=depth_level
+
+18.     orders --get --id=order_id -n -j --depth=depth_level
+18.     orders --get --id=order_id --number -j --depth=depth_level
+
+18.     orders --get --id=order_id -s -j --depth=depth_level
+18.     orders --get --id=order_id --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -j --depth=depth_level
+18.     orders --get --id=order_id -P --card -j --depth=depth_level
+18.     orders --get --id=order_id --card --products -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -n -j --depth=depth_level
+18.     orders --get --id=order_id -P --number -j --depth=depth_level
+18.     orders --get --id=order_id --number --products -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -s -j --depth=depth_level
+18.     orders --get --id=order_id -P --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --products --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -c -n -j --depth=depth_level
+18.     orders --get --id=order_id -c --number -j --depth=depth_level
+18.     orders --get --id=order_id --card -n -j --depth=depth_level
+18.     orders --get --id=order_id --card --number -j --depth=depth_level
+
+18.     orders --get --id=order_id -c -s -j --depth=depth_level
+18.     orders --get --id=order_id -c --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --card -s -j --depth=depth_level
+18.     orders --get --id=order_id --card --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -n -s -j --depth=depth_level
+18.     orders --get --id=order_id --number -s -j --depth=depth_level
+18.     orders --get --id=order_id -n --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --number --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -n -j --depth=depth_level
+18.     orders --get --id=order_id -P --card -n -j --depth=depth_level
+18.     orders --get --id=order_id -P -c --number -j --depth=depth_level
+18.     orders --get --id=order_id -P --card --number -j --depth=depth_level
+18.     orders --get --id=order_id --card -n --products -j --depth=depth_level
+18.     orders --get --id=order_id -c --number --products -j --depth=depth_level
+18.     orders --get --id=order_id -c -n --products -j --depth=depth_level
+18.     orders --get --id=order_id --card --number --products -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -s -j --depth=depth_level
+8.      orders --get --id=order_id -P --card -s -j --depth=depth_level
+8.      orders --get --id=order_id -P --card --shipping -j --depth=depth_level
+8.      orders --get --id=order_id -P -c --shipping -j --depth=depth_level
+8.      orders --get --id=order_id -c --products -s -j --depth=depth_level
+8.      orders --get --id=order_id --card --products -s -j --depth=depth_level
+8.      orders --get --id=order_id -c --products --shipping -j --depth=depth_level
+8.      orders --get --id=order_id --card --products --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -n -s -j --depth=depth_level
+18.     orders --get --id=order_id -P --card -n -s -j --depth=depth_level
+18.     orders --get --id=order_id -P -c --number -s -j --depth=depth_level
+18.     orders --get --id=order_id -P -c -n --shipping -j --depth=depth_level
+18.     orders --get --id=order_id -P --card --number -s -j --depth=depth_level
+18.     orders --get --id=order_id -P -card -n --shipping -j --depth=depth_level
+18.     orders --get --id=order_id -P --card --number --shipping -j --depth=depth_level
+18.     orders --get --id=order_id -c -n --products -s -j --depth=depth_level
+18.     orders --get --id=order_id -c --number --products -s -j --depth=depth_level
+18.     orders --get --id=order_id -c --number --products --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --card -n --products -s -j --depth=depth_level
+18.     orders --get --id=order_id --card -n --products --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --card --number --products -s -j --depth=depth_level
+18.     orders --get --id=order_id --card --number --products --shipping -j --depth=depth_level
+
+18.     orders --get --id=order_id -c -n -s -j --depth=depth_level
+18.     orders --get --id=order_id -c --number -s -j --depth=depth_level
+18.     orders --get --id=order_id -c -n --shipping -j --depth=depth_level
+18.     orders --get --id=order_id -c --number --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --card -n -s -j --depth=depth_level
+18.     orders --get --id=order_id --card --number -s -j --depth=depth_level
+18.     orders --get --id=order_id --card -n --shipping -j --depth=depth_level
+18.     orders --get --id=order_id --card --number --shipping -j --depth=depth_level
+
+
+## ==== orders --get --id=order_id --json ==========
+
+18.     orders --get --id=order_id --json
+
+18.     orders --get --id=order_id -P --json
+18.     orders --get --id=order_id --products --json
+
+18.     orders --get --id=order_id -c --json
+18.     orders --get --id=order_id --card --json
+
+18.     orders --get --id=order_id -n --json
+18.     orders --get --id=order_id --number --json
+
+18.     orders --get --id=order_id -s --json
+18.     orders --get --id=order_id --shipping --json
+
+18.     orders --get --id=order_id -P -c --json
+18.     orders --get --id=order_id -P --card --json
+18.     orders --get --id=order_id --card --products --json
+
+18.     orders --get --id=order_id -P -n --json
+18.     orders --get --id=order_id -P --number --json
+18.     orders --get --id=order_id --number --products --json
+
+18.     orders --get --id=order_id -P -s --json
+18.     orders --get --id=order_id -P --shipping --json
+18.     orders --get --id=order_id --products --shipping --json
+
+18.     orders --get --id=order_id -c -n --json
+18.     orders --get --id=order_id -c --number --json
+18.     orders --get --id=order_id --card -n --json
+18.     orders --get --id=order_id --card --number --json
+
+18.     orders --get --id=order_id -c -s --json
+18.     orders --get --id=order_id -c --shipping --json
+18.     orders --get --id=order_id --card -s --json
+18.     orders --get --id=order_id --card --shipping --json
+
+18.     orders --get --id=order_id -n -s --json
+18.     orders --get --id=order_id --number -s --json
+18.     orders --get --id=order_id -n --shipping --json
+18.     orders --get --id=order_id --number --shipping --json
+
+18.     orders --get --id=order_id -P -c -n --json
+18.     orders --get --id=order_id -P --card -n --json
+18.     orders --get --id=order_id -P -c --number --json
+18.     orders --get --id=order_id -P --card --number --json
+18.     orders --get --id=order_id --card -n --products --json
+18.     orders --get --id=order_id -c --number --products --json
+18.     orders --get --id=order_id -c -n --products --json
+18.     orders --get --id=order_id --card --number --products --json
+
+18.     orders --get --id=order_id -P -c -s --json
+8.      orders --get --id=order_id -P --card -s --json
+8.      orders --get --id=order_id -P --card --shipping --json
+8.      orders --get --id=order_id -P -c --shipping --json
+8.      orders --get --id=order_id -c --products -s --json
+8.      orders --get --id=order_id --card --products -s --json
+8.      orders --get --id=order_id -c --products --shipping --json
+8.      orders --get --id=order_id --card --products --shipping --json
+
+18.     orders --get --id=order_id -P -c -n -s --json
+18.     orders --get --id=order_id -P --card -n -s --json
+18.     orders --get --id=order_id -P -c --number -s --json
+18.     orders --get --id=order_id -P -c -n --shipping --json
+18.     orders --get --id=order_id -P --card --number -s --json
+18.     orders --get --id=order_id -P -card -n --shipping --json
+18.     orders --get --id=order_id -P --card --number --shipping --json
+18.     orders --get --id=order_id -c -n --products -s --json
+18.     orders --get --id=order_id -c --number --products -s --json
+18.     orders --get --id=order_id -c --number --products --shipping --json
+18.     orders --get --id=order_id --card -n --products -s --json
+18.     orders --get --id=order_id --card -n --products --shipping --json
+18.     orders --get --id=order_id --card --number --products -s --json
+18.     orders --get --id=order_id --card --number --products --shipping --json
+
+18.     orders --get --id=order_id -c -n -s --json
+18.     orders --get --id=order_id -c --number -s --json
+18.     orders --get --id=order_id -c -n --shipping --json
+18.     orders --get --id=order_id -c --number --shipping --json
+18.     orders --get --id=order_id --card -n -s --json
+18.     orders --get --id=order_id --card --number -s --json
+18.     orders --get --id=order_id --card -n --shipping --json
+18.     orders --get --id=order_id --card --number --shipping --json
+
+
+
+## ==== orders --get --id=order_id --json -d depth_level  ==========
+
+18.     orders --get --id=order_id --json -d depth_level
+
+18.     orders --get --id=order_id -P --json -d depth_level
+18.     orders --get --id=order_id --products --json -d depth_level
+
+18.     orders --get --id=order_id -c --json -d depth_level
+18.     orders --get --id=order_id --card --json -d depth_level
+
+18.     orders --get --id=order_id -n --json -d depth_level
+18.     orders --get --id=order_id --number --json -d depth_level
+
+18.     orders --get --id=order_id -s --json -d depth_level
+18.     orders --get --id=order_id --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -P -c --json -d depth_level
+18.     orders --get --id=order_id -P --card --json -d depth_level
+18.     orders --get --id=order_id --card --products --json -d depth_level
+
+18.     orders --get --id=order_id -P -n --json -d depth_level
+18.     orders --get --id=order_id -P --number --json -d depth_level
+18.     orders --get --id=order_id --number --products --json -d depth_level
+
+18.     orders --get --id=order_id -P -s --json -d depth_level
+18.     orders --get --id=order_id -P --shipping --json -d depth_level
+18.     orders --get --id=order_id --products --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -c -n --json -d depth_level
+18.     orders --get --id=order_id -c --number --json -d depth_level
+18.     orders --get --id=order_id --card -n --json -d depth_level
+18.     orders --get --id=order_id --card --number --json -d depth_level
+
+18.     orders --get --id=order_id -c -s --json -d depth_level
+18.     orders --get --id=order_id -c --shipping --json -d depth_level
+18.     orders --get --id=order_id --card -s --json -d depth_level
+18.     orders --get --id=order_id --card --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -n -s --json -d depth_level
+18.     orders --get --id=order_id --number -s --json -d depth_level
+18.     orders --get --id=order_id -n --shipping --json -d depth_level
+18.     orders --get --id=order_id --number --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -P -c -n --json -d depth_level
+18.     orders --get --id=order_id -P --card -n --json -d depth_level
+18.     orders --get --id=order_id -P -c --number --json -d depth_level
+18.     orders --get --id=order_id -P --card --number --json -d depth_level
+18.     orders --get --id=order_id --card -n --products --json -d depth_level
+18.     orders --get --id=order_id -c --number --products --json -d depth_level
+18.     orders --get --id=order_id -c -n --products --json -d depth_level
+18.     orders --get --id=order_id --card --number --products --json -d depth_level
+
+18.     orders --get --id=order_id -P -c -s --json -d depth_level
+8.      orders --get --id=order_id -P --card -s --json -d depth_level
+8.      orders --get --id=order_id -P --card --shipping --json -d depth_level
+8.      orders --get --id=order_id -P -c --shipping --json -d depth_level
+8.      orders --get --id=order_id -c --products -s --json -d depth_level
+8.      orders --get --id=order_id --card --products -s --json -d depth_level
+8.      orders --get --id=order_id -c --products --shipping --json -d depth_level
+8.      orders --get --id=order_id --card --products --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -P -c -n -s --json -d depth_level
+18.     orders --get --id=order_id -P --card -n -s --json -d depth_level
+18.     orders --get --id=order_id -P -c --number -s --json -d depth_level
+18.     orders --get --id=order_id -P -c -n --shipping --json -d depth_level
+18.     orders --get --id=order_id -P --card --number -s --json -d depth_level
+18.     orders --get --id=order_id -P -card -n --shipping --json -d depth_level
+18.     orders --get --id=order_id -P --card --number --shipping --json -d depth_level
+18.     orders --get --id=order_id -c -n --products -s --json -d depth_level
+18.     orders --get --id=order_id -c --number --products -s --json -d depth_level
+18.     orders --get --id=order_id -c --number --products --shipping --json -d depth_level
+18.     orders --get --id=order_id --card -n --products -s --json -d depth_level
+18.     orders --get --id=order_id --card -n --products --shipping --json -d depth_level
+18.     orders --get --id=order_id --card --number --products -s --json -d depth_level
+18.     orders --get --id=order_id --card --number --products --shipping --json -d depth_level
+
+18.     orders --get --id=order_id -c -n -s --json -d depth_level
+18.     orders --get --id=order_id -c --number -s --json -d depth_level
+18.     orders --get --id=order_id -c -n --shipping --json -d depth_level
+18.     orders --get --id=order_id -c --number --shipping --json -d depth_level
+18.     orders --get --id=order_id --card -n -s --json -d depth_level
+18.     orders --get --id=order_id --card --number -s --json -d depth_level
+18.     orders --get --id=order_id --card -n --shipping --json -d depth_level
+18.     orders --get --id=order_id --card --number --shipping --json -d depth_level
+
+
+## ==== orders --get --id=order_id --json --depth=depth_level  ==========
+
+18.     orders --get --id=order_id --json --depth=depth_level
+
+18.     orders --get --id=order_id -P --json --depth=depth_level
+18.     orders --get --id=order_id --products --json --depth=depth_level
+
+18.     orders --get --id=order_id -c --json --depth=depth_level
+18.     orders --get --id=order_id --card --json --depth=depth_level
+
+18.     orders --get --id=order_id -n --json --depth=depth_level
+18.     orders --get --id=order_id --number --json --depth=depth_level
+
+18.     orders --get --id=order_id -s --json --depth=depth_level
+18.     orders --get --id=order_id --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -c --json --depth=depth_level
+18.     orders --get --id=order_id -P --card --json --depth=depth_level
+18.     orders --get --id=order_id --card --products --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -n --json --depth=depth_level
+18.     orders --get --id=order_id -P --number --json --depth=depth_level
+18.     orders --get --id=order_id --number --products --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -s --json --depth=depth_level
+18.     orders --get --id=order_id -P --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --products --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -c -n --json --depth=depth_level
+18.     orders --get --id=order_id -c --number --json --depth=depth_level
+18.     orders --get --id=order_id --card -n --json --depth=depth_level
+18.     orders --get --id=order_id --card --number --json --depth=depth_level
+
+18.     orders --get --id=order_id -c -s --json --depth=depth_level
+18.     orders --get --id=order_id -c --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --card -s --json --depth=depth_level
+18.     orders --get --id=order_id --card --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -n -s --json --depth=depth_level
+18.     orders --get --id=order_id --number -s --json --depth=depth_level
+18.     orders --get --id=order_id -n --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --number --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -n --json --depth=depth_level
+18.     orders --get --id=order_id -P --card -n --json --depth=depth_level
+18.     orders --get --id=order_id -P -c --number --json --depth=depth_level
+18.     orders --get --id=order_id -P --card --number --json --depth=depth_level
+18.     orders --get --id=order_id --card -n --products --json --depth=depth_level
+18.     orders --get --id=order_id -c --number --products --json --depth=depth_level
+18.     orders --get --id=order_id -c -n --products --json --depth=depth_level
+18.     orders --get --id=order_id --card --number --products --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -s --json --depth=depth_level
+8.      orders --get --id=order_id -P --card -s --json --depth=depth_level
+8.      orders --get --id=order_id -P --card --shipping --json --depth=depth_level
+8.      orders --get --id=order_id -P -c --shipping --json --depth=depth_level
+8.      orders --get --id=order_id -c --products -s --json --depth=depth_level
+8.      orders --get --id=order_id --card --products -s --json --depth=depth_level
+8.      orders --get --id=order_id -c --products --shipping --json --depth=depth_level
+8.      orders --get --id=order_id --card --products --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -P -c -n -s --json --depth=depth_level
+18.     orders --get --id=order_id -P --card -n -s --json --depth=depth_level
+18.     orders --get --id=order_id -P -c --number -s --json --depth=depth_level
+18.     orders --get --id=order_id -P -c -n --shipping --json --depth=depth_level
+18.     orders --get --id=order_id -P --card --number -s --json --depth=depth_level
+18.     orders --get --id=order_id -P -card -n --shipping --json --depth=depth_level
+18.     orders --get --id=order_id -P --card --number --shipping --json --depth=depth_level
+18.     orders --get --id=order_id -c -n --products -s --json --depth=depth_level
+18.     orders --get --id=order_id -c --number --products -s --json --depth=depth_level
+18.     orders --get --id=order_id -c --number --products --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --card -n --products -s --json --depth=depth_level
+18.     orders --get --id=order_id --card -n --products --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --card --number --products -s --json --depth=depth_level
+18.     orders --get --id=order_id --card --number --products --shipping --json --depth=depth_level
+
+18.     orders --get --id=order_id -c -n -s --json --depth=depth_level
+18.     orders --get --id=order_id -c --number -s --json --depth=depth_level
+18.     orders --get --id=order_id -c -n --shipping --json --depth=depth_level
+18.     orders --get --id=order_id -c --number --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --card -n -s --json --depth=depth_level
+18.     orders --get --id=order_id --card --number -s --json --depth=depth_level
+18.     orders --get --id=order_id --card -n --shipping --json --depth=depth_level
+18.     orders --get --id=order_id --card --number --shipping --json --depth=depth_level
