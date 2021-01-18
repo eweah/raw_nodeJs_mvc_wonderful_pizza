@@ -147,7 +147,7 @@ class CLI extends Interface {
         // console.log('\x1b[36m%s\x1b[0m', `Type 'help' or 'man' for CLI usage`)
         console.log('')
         let cmds = {
-            'FRONT END:': '\x1b[34mType \x1b[33mfrontend\x1b[0m \x1b[34mor\x1b[0m \x1b[34mnavigate to \x1b[33mhttp://localhost:3000\x1b[0m\x1b[0m \x1b[34m(Safari browser is not supported)\x1b[0m',
+            'FRONT END:': '\x1b[34mType \x1b[33mfrontend\x1b[0m \x1b[34mor\x1b[0m \x1b[34mnavigate to \x1b[33mhttp://localhost:3000\x1b[0m\x1b[0m \x1b[34m(Safari browser is not supported yet)\x1b[0m',
             'CLI:': `\x1b[34mType \x1b[33mman\x1b[0m \x1b[34mor\x1b[0m \x1b[33mhelp\x1b[0m \x1b[34mor\x1b[0m \x1b[33musers\x1b[0m \x1b[34mor\x1b[0m \x1b[33morders\x1b[0m \x1b[34mor\x1b[0m \x1b[33mmenu\x1b[0m\x1b[34m etc. for the corresponding manual\x1b[0m\x1b[0m`,
             'CLI ADMIN:': '\x1b[34musername:\x1b[0m\x1b[33m6122071306\x1b[0m\x1b[34m,\x1b[0m \x1b[34mpassword:\x1b[0m\x1b[33m#20Demaison\x1b[0m \x1b[34m(You must be logged in to have full access)\x1b[0m',
             'LOGIN:': `\x1b[34mType \x1b[33mlogin\x1b[0m \x1b[34mfor logging in\x1b[0m`,
