@@ -320,6 +320,7 @@ class Command extends ByEmail{
        }
     }
     else if (string.trim().startsWith('users --load') === true || string.trim().startsWith('users -l') === true) {
+        if(string.trim() === 'users --load --years='){}
         if (string.trim() === 'users --load --json --depth=') {
             let error = `\x1b[31m \x1b[4mERROR\x1b[0m\x1b[31m:\x1b[0m \x1b[31musers '--load --json --depth='\x1b[0m \x1b\[31moption requires a valid argument! \x1b[0m \x1b[0m`
             let usage = ` \x1b[32m\x1b[4mUSAGE\x1b[0m\x1b[32m: \x1b[0m\x1b[36musers\x1b[0m \x1b[36m--load --json --depth=\x1b[0m\x1b[4mdepth_level\x1b[0m`
@@ -399,10 +400,37 @@ class Command extends ByEmail{
             return
         }
         if(string.trim() === 'users --load' || string.trim() ==='users -l'){}
+        
          else {
-            return this.emit('users:email:error', {
-                error: `'${string}' is not a users email command`
-            })
+
+            // if(string.trim().startsWith('users --load --years=')){
+            //     if(!string.trim().startsWith('users --load -y')){
+            //         return this.emit('users:email:error', {
+            //             error: `'${string}' is not a users command`
+            //         })
+            //     }
+            // }
+            //users --load -j
+            // users --load -j -d
+            // users --load -m
+            // users --load -M
+            //users --load -h
+            if(
+                !string.trim().startsWith('users --load -y') && 
+                !string.trim().startsWith('users --load --years=') &&
+                !string.trim().startsWith('users --load -j') && 
+                !string.trim().startsWith('users --load -j -d') &&
+                string.trim().startsWith('users --load -m') &&
+                string.trim().startsWith('users --load -M') &&
+                string.trim().startsWith('sers --load -h')
+
+                ){
+                    return this.emit('users:email:error', {
+                        error: `'${string}' is not a users command`
+                    })
+               
+            }
+             
         }
     }
     else{

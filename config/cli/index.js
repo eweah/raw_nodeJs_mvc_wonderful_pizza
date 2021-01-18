@@ -1426,7 +1426,8 @@ class CLI extends Interface {
         let mregex = /^[1-5]?[0-9]?$/gm
         let dregex = /^(3[0]|[12][0-9]|[1-9])$/gm
         let Mregex = /^(1[0-1]|[1-9])$/gm
-        let yregex = /^[0-9]?[0-9]$/gm
+        // let yregex = /^[0-9]?[0-9]$/gm
+        let yregex = /^[1-9]+[0-9]*$/gm
         let Dregex = /^[0-9]?[0-9]$/gm
         let jsonregex = /^[0-9]?[0-9]$/gm
         let emailregex = /^[A-Za-z0-9_.%+-]+@[A-Za-z0-9_.-]+\.[A-Za-z.].{1,3}\S*$/gm
