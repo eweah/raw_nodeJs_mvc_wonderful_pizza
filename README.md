@@ -7,16 +7,18 @@ a website or web application for some fictional pizza delivery company I called 
 
 
 ### Composition
-## Front End
+#### Front End
 1. CSS, CSS-Grid
 2. Javascript
 3. Web Component
-## Back End: API
+#### Back End: API
 1. Token base
 2. Routing
-## Back End: CLI
+#### Back End: CLI
 1. authentication
 2. Administration
+### Some Functionalities
+registration, authentication, authorization, email notifications, text notifications, emailing, texting, shopping cart, order records (receipt), account update, etc. 
 ### Notes: 
 This project uses Object Oriented Programming (OOP) and Functional Programming (FP) heavily. By Object Oriented Programming I mean Object Oriented Programming the Javascript way and specifically the ES6 way. And by Functional Programming I mean functional programming the Javascript way; specifically the ES6 way.
 
