@@ -18,7 +18,7 @@ a website or web application for some fictional pizza delivery company I called 
 1. authentication
 2. Administration
 ### Some Functionalities
-registration, authentication, authorization, email notifications, text notifications, emailing, texting, shopping cart, order records (receipt), account update, etc. 
+registration, authentication, authorization, email notifications, text notifications, emailing, texting, shopping cart, ordering, credit and debit card payments and charges, placing order, reviewing order, updating carts, updating cart items, order records (receipt), account update, etc. 
 ### Notes: 
 This project uses Object Oriented Programming (OOP) and Functional Programming (FP) heavily. By Object Oriented Programming I mean Object Oriented Programming the Javascript way and specifically the ES6 way. And by Functional Programming I mean functional programming the Javascript way; specifically the ES6 way.
 
