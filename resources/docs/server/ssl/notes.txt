@@ -1,1 +1,4 @@
+1. sudo ufw allow 'Nginx Full' && sudo ufw delete allow 'Nginx HTTP'
+2. sudo certbot --nginx -d example.com -d www.example.com
+3. sudo certbot renew --dry-run
 sudo certbot --nginx -d rawnodejs.com -d www.rawnodejs.com
