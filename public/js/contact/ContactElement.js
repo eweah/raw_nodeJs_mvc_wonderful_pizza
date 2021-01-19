@@ -75,7 +75,7 @@ contactFormHandler(){
  
   })
   this.formField('exit').addEventListener('click', event =>{
-    window.location.href = 'http://localhost:3000/menu'
+    window.location.href = 'https://rawnodejs.com/menu'
 })
 }
 

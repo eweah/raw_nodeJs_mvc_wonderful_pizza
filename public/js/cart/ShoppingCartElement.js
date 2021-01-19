@@ -838,7 +838,7 @@ class ShoppingCartElement extends PizzaElement {
      * 
      */
     deletedAuthCartItem(data) {
-        const url = 'http://localhost:3000/api/orders/remove'
+        const url = 'https://rawnodejs.com/api/orders/remove'
         const token = JSON.parse(window.localStorage.getItem('window number'))
         const options = {
             method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
