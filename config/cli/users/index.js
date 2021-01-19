@@ -139,7 +139,7 @@ class UserCommand extends TokenCommand{
 
         readable.on('error', error => {
            return this.emit('users:warning', {
-            error: `user with phone number ${phone} does not exists`
+            error: `user with phone number ${phone} does not exists.`
             })
         })
         readable.on('data', chunk => {
@@ -156,6 +156,7 @@ class UserCommand extends TokenCommand{
     async ongetuserbyemailevent(email, event) {
         try {
             const users = await this.findAll('users')
+            const errorBags = new Set()
             if (users && users.length > 0) {
                 let customer = {}
                 users.forEach(user => {
@@ -171,7 +172,7 @@ class UserCommand extends TokenCommand{
                     })
                     readable.on('end', () => {
                         if (JSON.stringify(customer) === '{}') {
-                            return this.emit('users:error', {
+                            return this.emit('users:user:not:found', {
                                 error: `user with email ${email} does not exists`
                             })
                         }
@@ -183,6 +184,12 @@ class UserCommand extends TokenCommand{
             }else{
                 return this.emit('users:warning', {error: `There are currenty no user in the system`})
             }
+
+            this.once('users:user:not:found', () => {
+                return this.emit('users:warning', {
+                    error: `user with email ${email} does not exists.`
+                })
+            })
         } catch (error) {
             return this.emit('users:error', {
                 error: 'INTERNAL ERROR: could not get data'
@@ -216,7 +223,7 @@ class UserCommand extends TokenCommand{
 
             '-e': 'or \x1b[36m--email\x1b[0m       User with the specified email: [\x1b[36m-g -e \x1b[0m\x1b[4memail\x1b[0m|\x1b[36m-g --email=\x1b[0m\x1b[4memail\x1b[0m]',
 
-            '-o': 'or \x1b[36m--users\x1b[0m       Orders of the specified User: [\x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m-o \x1b[0m| \x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m--orders\x1b[0m]',
+            '-o': 'or \x1b[36m--orders\x1b[0m      Orders of the specified User: [\x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m-o \x1b[0m| \x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m--orders\x1b[0m]',
 
             '-s': 'or \x1b[36m--shipping\x1b[0m    Shipping details of the specified user: [\x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m-s \x1b[0m|\x1b[36m-g -p \x1b[0m\x1b[4mphone\x1b[0m \x1b[36m--shipping\x1b[0m]',
 
@@ -291,7 +298,7 @@ class UserCommand extends TokenCommand{
                       users.forEach(user => {
                          let readable = createReadStream(`${this.base()}/users/${user}`, 'utf-8')
                          readable.on('error' , error => {
-                             this.emit('error', {error: `Could not find user with phone number ${user}`})
+                             this.emit('error', {error: `Could not find user with phone number ${user}.`})
                          })
                          console.log()
                         readable.on('data', chunked => {
