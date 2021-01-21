@@ -2,3 +2,48 @@
 2. sudo certbot --nginx -d example.com -d www.example.com
 3. sudo certbot renew --dry-run
 sudo certbot --nginx -d rawnodejs.com -d www.rawnodejs.com
+2. sudo certbot --nginx -d devoutprogrammer.com -d www.devoutprogrammer.com
+2. sudo certbot --nginx -d devoutprogrammer.org -d www.devoutprogrammer.org
+
+
+sudo chown -R www-data.www-data /var/www/travel_list/storage
+sudo chown -R www-data.www-data /var/www/travel_list/bootstrap/cache
+sudo ln -s /etc/nginx/sites-available/travel_list /etc/nginx/sites-enabled/
+
+
+
+
+
+sudo apt install certbot python3-certbot-nginx
+sudo apt install php7.4-curl php7.4-gd php7.4-mbstring php7.4-imap php7.4-xml php-apcu mysql-server php-mysql php php-fpm nginx certbot python3-certbot-nginx php-fpm
+
+1. sudo ufw allow 'Nginx Full' && sudo ufw delete allow 'Nginx HTTP'
+2. sudo certbot --nginx -d example.com -d www.example.com
+3. sudo certbot renew --dry-run
+sudo certbot --nginx -d rawnodejs.com -d www.rawnodejs.com
+2. sudo certbot --nginx -d devoutprogrammer.com -d www.devoutprogrammer.com
+2. sudo certbot --nginx -d devoutprogrammer.org -d www.devoutprogrammer.org
+
+
+sudo chown -R www-data.www-data /var/www/travel_list/storage
+sudo chown -R www-data.www-data /var/www/travel_list/bootstrap/cache
+sudo ln -s /etc/nginx/sites-available/travel_list /etc/nginx/sites-enabled/
+
+## ecommerce
+
+1. sudo certbot --nginx -d devoutprogrammer.org -d www.devoutprogrammer.org
+
+sudo chown -R www-data.www-data /var/www/ecommerce/storage
+sudo chown -R www-data.www-data /var/www/ecommerce/bootstrap/cache
+sudo ln -s /etc/nginx/sites-available/ecommerce /etc/nginx/sites-enabled/
+
+
+sudo certbot --nginx -d purenodejs.com -d www.purenodejs.com
+sudo certbot renew --dry-run
+sudo chown -R www-data.www-data /var/www/rawnodejs/storage
+sudo chown -R www-data.www-data /var/www/rawnodejs/bootstrap/cache
+sudo ln -s /etc/nginx/sites-available/rawnodejs /etc/nginx/sites-enabled/
+
+
+0 5 * * * /usr/bin/certbot renew --quiet
+
