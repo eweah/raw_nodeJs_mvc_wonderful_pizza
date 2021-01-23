@@ -9,7 +9,7 @@ module.exports = {
     // Mailgun  API Key
     MAILGUN: {
         _API_KEY: 'key-92c958ffda43878f7722bc26eec76f56',
-        _DOMAIN: 'devoutprogrammer.com'
+        _DOMAIN: 'mail.devoutprogrammer.com'
         // _DOMAIN: 'sandboxb907f3fa427748f6909b2315406714f9.mailgun.org'
     },
 
