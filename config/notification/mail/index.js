@@ -367,7 +367,7 @@ return `<!DOCTYPE html>
        ${this.billing()}
         <div>
             <h4 style="text-align: center;">
-                Thank you for choosing <strong>Wonderful Pizza, <a href="http://localhost:3000">Americas Most Wanted Pizza!</a></strong>
+                Thank you for choosing <strong>Wonderful Pizza, <a href="hhttp://wonderfulpizza.devoutprogrammer.com/">Americas Most Wanted Pizza!</a></strong>
             </h4>
         </div>
         </body>
@@ -432,7 +432,7 @@ const Mailgun = this.mailgun
 const Run = this.run
 
 const senderName = 'Wonderful Pizza';
-const senderEmail = 'pizza@wonderfulpizza.com';
+const senderEmail = 'wonderfulpizza@wonderfulpizza.devoutprogrammer.com';
 const subject = 'Wonderful Pizza Order';
 
 const emailCommand = Mailgun(senderName, senderEmail,  this.orderUser().email, subject, this.body());
