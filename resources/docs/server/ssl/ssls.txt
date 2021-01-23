@@ -1,0 +1,10 @@
+sudo certbot --nginx -d devoutprogrammer.com -d www.devoutprogrammer.com
+
+sudo certbot --nginx -d devoutprogrammer.dev -d www.devoutprogrammer.dev
+
+sudo certbot --nginx -d vanillanodejs.com -d www.vanillanodejs.com
+sudo certbot --nginx -d rawnodejs.com -d www.rawnodejs.com
+sudo certbot --nginx -d purenodejs.com -d www.purenodejs.com
+
+
+sudo certbot --nginx -d wonderfulpizza.devoutprogrammer.com -d www.wonderfulpizza.devoutprogrammer.com

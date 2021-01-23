@@ -44,6 +44,21 @@ sudo chown -R www-data.www-data /var/www/rawnodejs/storage
 sudo chown -R www-data.www-data /var/www/rawnodejs/bootstrap/cache
 sudo ln -s /etc/nginx/sites-available/rawnodejs /etc/nginx/sites-enabled/
 
+sudo ln -s /etc/nginx/sites-available/devoutprogrammer /etc/nginx/sites-enabled/
+
+
+sudo ln -s /etc/nginx/sites-available/devoutprogrammer /etc/nginx/sites-enabled/
+
+devoutprogrammer.dev
+sudo ln -s /etc/nginx/sites-available/store.devoutprogrammer.com /etc/nginx/sites-enabled/
+
+
+sudo chown -R www-data.www-data /var/www/devoutprogrammer.dev/storage
+sudo chown -R www-data.www-data /var/www/devoutprogrammer.dev/bootstrap/cache
+
 
 0 5 * * * /usr/bin/certbot renew --quiet
+
+
+sudo certbot --nginx -d wonderfulpizza.devoutprogrammer.com -d www.wonderfulpizza.devoutprogrammer.com
 

@@ -1,0 +1,29 @@
+
+sudo apt install nginx certbot python3-certbot-nginx
+sudo apt purge nginx nginx-full nginx-common nginx-core
+
+sudo certbot --nginx -d wonderfulpizza.devoutprogrammer.com -d www.wonderfulpizza.devoutprogrammer.com
+sudo certbot renew --dry-run
+sudo ln -s /etc/nginx/sites-available/wonderfulpizza /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/wonderfulpizza /etc/nginx/sites-enabled/
+
+
+sudo ln -s /etc/nginx/sites-available/rawnodejs /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/vanillanodejs /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/purenodejs /etc/nginx/sites-enabled/
+
+sudo ln -s /etc/nginx/sites-available/rawnodejs /etc/nginx/sites-enabled/
+0 5 * * * /usr/bin/certbot renew --quiet
+
+
+
+
+sudo chown -R www-data.www-data /var/www/vanillanodejs/storage
+sudo chown -R www-data.www-data /var/www/vanillanodejs/bootstrap/cache
+
+
+sudo chown -R www-data.www-data /var/www/purenodejs/storage
+sudo chown -R www-data.www-data /var/www/purenodejs/bootstrap/cache
+
+
+
