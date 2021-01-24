@@ -608,7 +608,7 @@ class BaseElement extends HTMLElement {
    */
   async orders() {
     if (this.authCheck()) {
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/auth/orders'
+      const url = 'https://rawnodejs.com/api/orders/auth/orders'
       // Default options are marked with *
       const response = await fetch(url, {
         method: 'GET', // *GET, POST, PUT, DELETE, etc.
@@ -643,7 +643,7 @@ class BaseElement extends HTMLElement {
   async getUserOrders(data = {}) {
     if (this.authCheck()) {
       // Default options are marked with *
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/all'
+      const url = 'https://rawnodejs.com/api/orders/all'
       const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
@@ -707,7 +707,7 @@ class BaseElement extends HTMLElement {
    * 
    */
   async removeCartItem(data = {}) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/remove'
+    const url = 'https://rawnodejs.com/api/orders/remove'
     if (this.authCheck()) {
       // Default options are marked with *
       const response = await fetch(url, {
@@ -741,7 +741,7 @@ class BaseElement extends HTMLElement {
    */
   async onAuthPlacedOrder(data = {}) {
     if (this.authCheck()) {
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/auth/order'
+      const url = 'https://rawnodejs.com/api/orders/auth/order'
       // Default options are marked with *
       const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -804,7 +804,7 @@ class BaseElement extends HTMLElement {
    */
   async getAuthUser() {
     if (this.authCheck()) {
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/users/user'
+      const url = 'https://rawnodejs.com/api/users/user'
       // Default options are marked with *
       const response = await fetch(url, {
         method: 'GET', // *GET, POST, PUT, DELETE, etc.
@@ -828,7 +828,7 @@ class BaseElement extends HTMLElement {
   }
 
   addToAuthCart(data) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/add'
+    const url = 'https://rawnodejs.com/api/orders/add'
     const token = JSON.parse(window.localStorage.getItem('window number'))
     const options = {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -869,7 +869,7 @@ class BaseElement extends HTMLElement {
         .catch(error => console.log('error ', error))
 }
 addToGuestCart(data) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/guest/cart/add'
+    const url = 'https://rawnodejs.com/api/orders/guest/cart/add'
     const options = {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
@@ -908,7 +908,7 @@ addToGuestCart(data) {
         .catch(error => console.log('error ', error))
 }
 deletedAuthCartItem(data) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/remove'
+    const url = 'https://rawnodejs.com/api/orders/remove'
     const token = JSON.parse(window.localStorage.getItem('window number'))
     const options = {
         method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
@@ -929,7 +929,7 @@ deletedAuthCartItem(data) {
         .catch(error => console.log('error deleting', error))
 }
 async updateAuthCartItem(data) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/edit '
+    const url = 'https://rawnodejs.com/api/orders/edit '
     const token = JSON.parse(window.localStorage.getItem('window number'))
     const options = {
         method: 'PUT', // *GET, POST, PUT, DELETE, etc.
@@ -995,7 +995,7 @@ async updateAuthCartItem(data) {
     async deleteAccount() {
       if (this.authCheck()) {
           // Default options are marked with *
-          const url = 'http://wonderfulpizza.devoutprogrammer.com/api/users/remove'
+          const url = 'https://rawnodejs.com/api/users/remove'
           const response = await fetch(url, {
               method: 'POST', // *GET, POST, PUT, DELETE, etc.
               mode: 'cors', // no-cors, *cors, same-origin
@@ -1026,7 +1026,7 @@ async updateAuthCartItem(data) {
      * 
      */
     deletedCartItem(data){
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/remove'
+      const url = 'https://rawnodejs.com/api/orders/remove'
       const token = JSON.parse(window.localStorage.getItem('window number'))
       const options = {
           method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
@@ -1058,7 +1058,7 @@ async updateAuthCartItem(data) {
      * 
      */
     async contact(data) {
-      const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/contact'
+      const url = 'https://rawnodejs.com/api/orders/contact'
       // Default options are marked with *
       const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -1110,7 +1110,7 @@ async updateAuthCartItem(data) {
   }
 
   async onGuestPlacedOrder(data = {}) {
-    const url = 'http://wonderfulpizza.devoutprogrammer.com/api/orders/guest/add'
+    const url = 'https://rawnodejs.com/api/orders/guest/add'
     // Default options are marked with *
     const response = await fetch(url, {
       method: 'POST', // *GET, POST, PUT, DELETE, etc.
