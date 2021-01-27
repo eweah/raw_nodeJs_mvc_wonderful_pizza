@@ -17,7 +17,7 @@ export default () => {
     return `
     <div class="footer">
         <h4>
-        <small>&copy; Copyright 2020, <a href="http://wonderfulpizza.devoutprogrammer.com/">Worderful Pizza</a>, America's Most Wanted Pizza. All Rights Reserved | 3458 S 1300 E, Salt Lake City, UT | <a href="mailto:pizza@wonderfulpizza.com">pizza@wonderfulpizza.com</a> | <a href="tel:2038720739">+1.203.872.0739</a></small>
+        <small>&copy; Copyright 2020, <a href="https://www.wonderfulpizza.devoutprogrammer.com">Worderful Pizza</a>, America's Most Wanted Pizza. All Rights Reserved | 3458 S 1300 E, Salt Lake City, UT | <a href="mailto:devoutprogrammer.com">devoutprogrammer.com</a> | <a href="tel:2038720739">+1.203.872.0739</a></small>
         </h4>
     </div>
     ${css()}

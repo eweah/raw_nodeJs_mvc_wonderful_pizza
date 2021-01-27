@@ -258,7 +258,7 @@ class ShappingElement extends StatesElement {
 							console.log(this.billingAddress)
 						};
 					};
-					window.location.href = 'http://wonderfulpizza.devoutprogrammer.com/review';
+					window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/review';
 				} else {
 					const data = {};
 					data.user = {};
@@ -281,7 +281,7 @@ class ShappingElement extends StatesElement {
 						console.log('user added');
 					};
 				}
-				window.location.href = 'http://wonderfulpizza.devoutprogrammer.com/review';
+				window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/review';
 			};
 		});
 	}

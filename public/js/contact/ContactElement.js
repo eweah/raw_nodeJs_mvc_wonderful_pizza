@@ -75,7 +75,7 @@ contactFormHandler(){
  
   })
   this.formField('exit').addEventListener('click', event =>{
-    window.location.href = 'http://wonderfulpizza.devoutprogrammer.com/menu'
+    window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/menu'
 })
 }
 

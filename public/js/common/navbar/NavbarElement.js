@@ -101,7 +101,7 @@ paymentProcess() {
       placeOrder.innerHTML = `ORDER REVIEW NEXT `
       placeOrder.style.display = 'inline-block'
       
-      // placeOrder.setAttribute('href', 'http://wonderfulpizza.devoutprogrammer.com/review')
+      // placeOrder.setAttribute('href', 'https://www.wonderfulpizza.devoutprogrammer.com/review')
       
 
   }
@@ -110,21 +110,21 @@ paymentProcess() {
       // placeOrder.innerHTML = `ORDER REVIEW NEXT `
       placeOrder.innerHTML = `PAY AMOUNT`
       placeOrder.style.display = 'inline-block'
-      placeOrder.setAttribute('href', 'http://wonderfulpizza.devoutprogrammer.com/feedback')
+      placeOrder.setAttribute('href', 'https://www.wonderfulpizza.devoutprogrammer.com/feedback')
      
   }
   if (path === '/review') {
       this.navbarItems('none')
       placeOrder.innerHTML = `PAYMENT METHOD NEXT`
       placeOrder.style.display = 'inline-block'
-      placeOrder.setAttribute('href', 'http://wonderfulpizza.devoutprogrammer.com/payment')
+      placeOrder.setAttribute('href', 'https://www.wonderfulpizza.devoutprogrammer.com/payment')
   }
   if (path === '/feedback') {
       this.navbarItems('none')
       placeOrder.innerHTML = `ORDER SUCESSFULLY COMPLETED!`
       placeOrder.style.display = 'inline-block'
       placeOrder.style.color = 'teal'
-      placeOrder.setAttribute('href', 'http://wonderfulpizza.devoutprogrammer.com/menu')
+      placeOrder.setAttribute('href', 'https://www.wonderfulpizza.devoutprogrammer.com/menu')
   }
 
 }
