@@ -45,10 +45,6 @@ cd mvc
  node index
 ```
 4. Admin CLI
-After running
-```javascript
-node index
-```
-the Admin Cli will be available with  instructions
+After running ``` javascript node index ``` the Admin Cli will be available with instructions
 
 
