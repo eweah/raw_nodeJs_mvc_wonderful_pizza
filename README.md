@@ -1,5 +1,6 @@
 # Pure NodeJs MVC
 ## Wonderful Pizza: America's Most Wanted Pizza
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 I wanted to relearn the basics (HTML, CSS, Javascript,and NodeJs) so I decided to build
 a website or web application for some fictional pizza delivery company I called Wonderful Pizza: America's Most Wanted Pizzas. I had one single rule in mind when building this personal project. And the number one rule is: No npm, no dependencies, no frameworks, no libraries,no CDNs, and no copying and pasting someone else's codes. So the whole project was built from scratch, from an empty folder. The basis of the project are:
 1. Front End: vanilla HTML, vanilla CSS, and vanilla Javascript. No npm, no dependencies, no package.json, no frameworks, no libraries, and no CDNs.
