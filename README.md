@@ -12,7 +12,7 @@ a website or web application for some fictional pizza delivery company I called 
 2. Javascript
 3. Web Component
 #### Back End: API
-1. Token base
+1. Token based
 2. Routing
 #### Back End: CLI
 1. authentication
