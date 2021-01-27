@@ -838,7 +838,7 @@ class ShoppingCartElement extends PizzaElement {
      * 
      */
     deletedAuthCartItem(data) {
-        const url = 'https://www.wonderfulpizza.devoutprogrammer.com/api/orders/remove'
+        const url = 'https://wonderfulpizza.devoutprogrammer.com/api/orders/remove'
         const token = JSON.parse(window.localStorage.getItem('window number'))
         const options = {
             method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
