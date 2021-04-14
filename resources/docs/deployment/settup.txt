@@ -1,0 +1,5 @@
+sudo vim /etc/nginx/sites-available/wonderfulpizza.devoutprogrammer.com
+
+sudo ln -s /etc/nginx/sites-available/wonderfulpizza.devoutprogrammer.com /etc/nginx/sites-enabled/
+
+sudo certbot --nginx -d wonderfulpizza.devoutprogrammer.com
