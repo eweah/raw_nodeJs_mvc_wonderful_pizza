@@ -3,9 +3,9 @@ import css from './css.js'
 export default () => {
     return `
     <div class="header">
-    <a href="index.html" class="logo">
+    <!---<a href="index.html" class="logo">
         <img src="https://placehold.it/50x35" alt="Wonderful Pizza" id="logo">
-    </a>
+    </a> -->
     <div class="header-right">
         <h1 id="title">Your Cart</h1>
         <p id="title-text">We are America's Most Wanted Pizza!</p>
