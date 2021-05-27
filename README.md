@@ -36,6 +36,13 @@ All the backend codes and all the classes of the backend code inherit a single N
  ```javascript
  git clone https://github.com/devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza.git mvc
 ```
+ or 
+  ```javascript
+ gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc
+ ```
+  Note: to use the command ```gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc ```
+ you must have  Github CLI ```gh ``` installed on your system.
+
 2. cd in the directory:
 ```javascript
 cd mvc
@@ -44,4 +51,5 @@ cd mvc
 ```javascript
  node index
 ```
-
+4. Admin CLI: 
+ After runing ```node index``` or ```node index.js``` the CLI will be available with instructions.
