@@ -52,9 +52,7 @@ cd mvc
  node index
 ```
 4. Admin CLI:
-```javascript
-node index
-```
- Note: After runing ```node index``` or ```node index.js``` the CLI will be available with instructions.
+
+ Note: After successfully runing the command ```node index``` or ```node index.js``` in step 4, the CLI will be available with instructions.
 
 
