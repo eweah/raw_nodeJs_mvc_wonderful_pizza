@@ -36,6 +36,7 @@ All the backend codes and all the classes of the backend code inherit a single N
  ```javascript
  git clone https://github.com/devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza.git mvc
 ```
+or 
   ```javascript
  gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc
  ```
