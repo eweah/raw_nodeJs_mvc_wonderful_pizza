@@ -40,8 +40,7 @@ or
   ```javascript
  gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc
  ```
-  Note: to use the command ```gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc ```
- you must have  Github CLI ```gh ``` installed on your system.
+  Note: to use the command ```gh repo clone devoutprogrammer/raw_nodeJs_mvc_wonderful_pizza mvc``` you must have  Github CLI ```gh ``` installed on your system.
  
 2. cd in the directory:
 ```javascript
