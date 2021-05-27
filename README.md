@@ -52,6 +52,6 @@ cd mvc
 ```
 4. Admin CLI:
 
- After successfully runing the command ```node index``` or ```node index.js``` in step 4, the CLI will be available with instructions.
+ After successfully runing the command ```node index``` or ```node index.js``` in step 3, the CLI will be available with instructions.
 
 
