@@ -85,7 +85,8 @@ class BaseHeader extends Common {
     }
     payment() {
         this.headerTile.innerHTML = 'Payment Details'
-        this.headerTitleText.innerHTML = 'We will bill you after you successfully pay'
+        this.headerTitleText.innerHTML = `We will bill you after you successfully pay <hr> <br> <small>Please use any of the following test credit cards of your choice</small>: <br> <br><div style="text-align:justified"><small> <strong>American Express</strong>: 370012345612345 or 3700-123456-12345 <br><strong>Visa</strong>: 4000123412341234 or 4000-1234-1234-1234 <br><strong>Mastercard</strong>: 5100123412341234 or 5100-1234-1234-1234 <br><strong>Discover</strong>:6011123412341234 or 6011-1234-1234-1234</small></div> <br><br>
+        <strong>NOTE:</strong> A real credit card will fail. This is only a fictional company! <br> <strong style="color:red">So please use any of the test credit cards</strong>.<br> However use your real email address and phone number for notifications and invoices.`
     }
 
     feedback() {
