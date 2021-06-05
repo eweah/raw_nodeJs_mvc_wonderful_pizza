@@ -446,7 +446,7 @@ onSelectCard = () => {
 onAguestHasPlacedAnOrder(){
 this.addEventListener('a-guest-has-placed-an-order', event => {
 
-  const feedback = () => window.location.href = 'https://wonderfulpizza.devoutprogrammer.com/feedback'
+  const feedback = () => window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/feedback'
   const cleanup = () => {
     const orderStore = this.store('orders', 'readwrite')
     const cart = this.store('carts', 'readwrite')
@@ -485,7 +485,7 @@ this.addEventListener('a-guest-has-placed-an-order', event => {
 onAuthHasPlacedAndOrder(){
  this.addEventListener('auth-user-has-placed-an-order', event => {
 
-    const feedback = () => window.location.href = 'https://wonderfulpizza.devoutprogrammer.com/feedback'
+    const feedback = () => window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/feedback'
     const cleanup = () => {
       const orderStore = this.store('orders', 'readwrite')
       const cart = this.store('carts', 'readwrite')

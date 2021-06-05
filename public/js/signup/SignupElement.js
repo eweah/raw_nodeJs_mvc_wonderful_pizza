@@ -299,7 +299,7 @@ onRegistrationSuccessNotification(){
         // console.log(register.firstname.value)
         register.addEventListener('submit', event => {
             event.preventDefault()
-            const url = 'https://wonderfulpizza.devoutprogrammer.com/api/users/add'
+            const url = 'https://www.wonderfulpizza.devoutprogrammer.com/api/users/add'
             const user = {
                 firstname: register.firstname.value,
                 lastname: register.lastname.value,
@@ -396,7 +396,7 @@ onRegistrationSuccessNotification(){
         this.registrationHandler()
 
         this.formField('exit').addEventListener('click', event =>{
-            window.location.href = 'https://wonderfulpizza.devoutprogrammer.com/menu'
+            window.location.href = 'https://www.wonderfulpizza.devoutprogrammer.com/menu'
         })
       }
   
