@@ -258,7 +258,7 @@ class ShappingElement extends StatesElement {
 							console.log(this.billingAddress)
 						};
 					};
-					window.location.href = 'http://localhost:3000/review';
+					window.location.href = 'https://www.wonderfulpizzas.ericsonweah.com/review';
 				} else {
 					const data = {};
 					data.user = {};
@@ -281,7 +281,7 @@ class ShappingElement extends StatesElement {
 						console.log('user added');
 					};
 				}
-				window.location.href = 'http://localhost:3000/review';
+				window.location.href = 'https://www.wonderfulpizzas.ericsonweah.com/review';
 			};
 		});
 	}

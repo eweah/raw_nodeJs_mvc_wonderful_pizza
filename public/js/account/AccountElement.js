@@ -138,7 +138,7 @@ class AccountElement extends Validator{
                   nickname: this.accountUpdateForm.nickname.value, 
                   confirm: this.accountUpdateForm.confirm.value
               }
-          const url = 'http://localhost:3000/api/users/edit'
+          const url = 'https://www.wonderfulpizzas.ericsonweah.com/api/users/edit'
               this.updateAccount(url, userData)
               .then(response => {
                   const userHasUpdatedAccount = new CustomEvent('user-has-updated-account',{bubbles:false, composed: false, detail: response.user})

@@ -1627,11 +1627,11 @@ class ReviewElement extends ShoppingCartElement {
     })
     const editInCartBtn = this.shadowRoot.getElementById('back-to-cart')
     editInCartBtn.addEventListener('click', event => {
-      window.location.href = 'http://localhost:3000/cart'
+      window.location.href = 'https://www.wonderfulpizzas.ericsonweah.com/cart'
     })
     const paymentMethodBtn = this.shadowRoot.getElementById('payment-method')
     paymentMethodBtn.addEventListener('click', event => {
-      window.location.href = 'http://localhost:3000/payment'
+      window.location.href = 'https://www.wonderfulpizzas.ericsonweah.com/payment'
     })
     const doneBtn = this.shadowRoot.getElementById('done')
     doneBtn.style.display = 'none'

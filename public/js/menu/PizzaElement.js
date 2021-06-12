@@ -874,7 +874,7 @@ class PizzaElement extends BaseElement {
     * 
     */
     async getOrders() {
-        const response = await fetch('http://localhost:3000/api/orders/add')
+        const response = await fetch('https://www.wonderfulpizzas.ericsonweah.com/api/orders/add')
         return response.json()
     }
 

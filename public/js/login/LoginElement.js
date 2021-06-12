@@ -119,7 +119,7 @@ class LoginElement extends Validator {
         phone: inputPhone,
         password: loginForm.password.value
       }
-      const url = 'http://localhost:3000/api/tokens/add'
+      const url = 'https://www.wonderfulpizzas.ericsonweah.com/api/tokens/add'
       this.login(url, loginData)
         .then(response => {
           console.log(response)
@@ -502,7 +502,7 @@ class LoginElement extends Validator {
       console.log('user-has-logged-in event from login.js', event)
     })
     this.formField('exit').addEventListener('click', event => {
-      window.location.href = 'http://localhost:3000/menu'
+      window.location.href = 'https://www.wonderfulpizzas.ericsonweah.com/menu'
     })
   }
   setVariables() {

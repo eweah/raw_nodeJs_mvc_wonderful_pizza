@@ -1,0 +1,18 @@
+sudo chown -R www-data:www-data /var/www/html/www.ericsonweah.com/storage
+sudo chown -R www-data:www-data /var/www/html/www.ericsonweah.com/bootstrap/cache
+
+
+
+
+
+sudo vim /etc/nginx/sites-available/wonderfulpizzas.ericsonweah.com
+
+sudo ln -s /etc/nginx/sites-available/wonderfulpizzas.ericsonweah.com /etc/nginx/sites-enabled/
+
+sudo certbot --nginx -d wonderfulpizzas.ericsonweah.com
+
+
+sudo vim /etc/nginx/sites-available/www.wonderfulpizzas.ericsonweah.com
+
+sudo ln -s /etc/nginx/sites-available/www.wonderfulpizzas.ericsonweah.com /etc/nginx/sites-enabled/
+sudo certbot --nginx -d www.wonderfulpizzas.ericsonweah.com
