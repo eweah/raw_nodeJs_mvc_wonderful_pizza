@@ -46,6 +46,12 @@ or
 ```javascript
 cd mvc
 ```
+
+3. switch to dev branch:
+```javascript
+ git checkout dev
+```
+
 3. run the command:
 ```javascript
  node index
